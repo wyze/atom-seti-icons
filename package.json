@@ -1,0 +1,14 @@
+{
+  "name": "seti-icons",
+  "version": "0.1.0",
+  "description": "The awesome icons provided by Seti UI theme.",
+  "keywords": [
+    "seti",
+    "icons"
+  ],
+  "repository": "https://github.com/wyze/seti-icons",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}

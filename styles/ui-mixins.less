@@ -52,6 +52,30 @@
 
 }
 
+.icon-finder(@extension: ''; @type: ''; @font: 20px; @top: 6px; @right: 0px; @left: -5px; @offset: -6px) {
+  .fuzzy-finder {
+    .icon[data-name$="@{extension}"] {
+      position: relative;
+      display: inline-block;
+      padding: 0;
+
+      &.icon-file-text,
+      &.icon-file-media,
+      &.icon-book {
+        &:before {
+          font-family: icomoon;
+          content: "@{icon-@{type}}";
+          font-size: @font;
+          position: relative;
+          left: @left;
+          margin-right: @right;
+          color: ~"@{color-@{type}}";
+        }
+      }
+    }
+  }
+}
+
 
 // Pattern matching; ish is cray.
 // http://lesscss.org/#-pattern-matching-and-guard-expressions

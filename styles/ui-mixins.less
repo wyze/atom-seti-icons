@@ -1,7 +1,21 @@
 @import "ui-variables";
 
+.icon-tab( @extension: ''; @type: ''; @font: 20px; @top: 6px; @right: -3px; @left: -5px; @offset: -6px; @plus: false) when (@plus = true) {
+  .seti-icons-plus {
+    .icon-tab(@extension, @type, @font, @top, @right, @left, @offset);
 
-.icon-tab( @extension: ''; @type: ''; @font: 20px; @top: 6px; @right: -3px; @left: -5px; @offset: -6px ) {
+    &:not(.seti-icons-no-color) {
+      tabs-bar tabs-tab .title[data-name$="@{extension}"],
+      .tab-bar .tab .title[data-name$="@{extension}"] {
+        &:before {
+          color: ~"@{color-@{type}}";
+        }
+      }
+    }
+  }
+}
+
+.icon-tab( @extension: ''; @type: ''; @font: 20px; @top: 6px; @right: -3px; @left: -5px; @offset: -6px; @plus: false) when (default()) {
 
   tabs-bar tabs-tab .title[data-name$="@{extension}"], .tab-bar .tab .title[data-name$="@{extension}"] {
     position: relative;
@@ -35,7 +49,23 @@
 
 }
 
-.icon-tree( @extension: ''; @type: ''; @font: 20px; @top: 6px; @right: 0px; @left: -5px; @offset: -6px ) {
+.icon-tree( @extension: ''; @type: ''; @font: 20px; @top: 6px; @right: 0px; @left: -5px; @offset: -6px; @plus: false) when (@plus = true) {
+  .seti-icons-plus {
+    .icon-tree(@extension, @type, @font, @top, @right, @left, @offset);
+
+    &:not(.seti-icons-no-color) {
+      .name.icon[data-name$="@{extension}"] {
+        &.icon-file-text, &.icon-file-media, &.icon-book {
+          &:before {
+            color: ~"@{color-@{type}}";
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon-tree( @extension: ''; @type: ''; @font: 20px; @top: 6px; @right: 0px; @left: -5px; @offset: -6px; @plus: false) when (default()) {
 
   .name.icon[data-name$="@{extension}"] {
 
@@ -68,7 +98,27 @@
 
 }
 
-.icon-finder(@extension: ''; @type: ''; @font: 20px; @top: 6px; @right: 0px; @left: -5px; @offset: -6px) {
+.icon-finder(@extension: ''; @type: ''; @font: 20px; @top: 6px; @right: 0px; @left: -5px; @offset: -6px; @plus: false) when (@plus = true) {
+  .seti-icons-plus {
+    .icon-finder(@extension, @type, @font, @top, @right, @left, @offset);
+
+    &:not(.seti-icons-no-color) {
+      .fuzzy-finder {
+        .icon[data-name$="@{extension}"] {
+          &.icon-file-text,
+          &.icon-file-media,
+          &.icon-book {
+            &:before {
+              color: ~"@{color-@{type}}";
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon-finder(@extension: ''; @type: ''; @font: 20px; @top: 6px; @right: 0px; @left: -5px; @offset: -6px; @plus: false) when (default()) {
   .fuzzy-finder {
     .icon[data-name$="@{extension}"] {
       position: relative;

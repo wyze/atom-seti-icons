@@ -10,14 +10,14 @@ module.exports =
       description: 'Display icons without color.'
 
   activate: ( state ) ->
-    atom.config.onDidChange 'seti-icons-dev.iconsPlus', ({ newValue }) =>
+    atom.config.onDidChange 'seti-icons.iconsPlus', ({ newValue }) =>
       @iconsPlus newValue
 
-    atom.config.onDidChange 'seti-icons-dev.noColor', ({ newValue }) =>
+    atom.config.onDidChange 'seti-icons.noColor', ({ newValue }) =>
       @noColor newValue
 
-    @iconsPlus atom.config.get 'seti-icons-dev.iconsPlus'
-    @noColor atom.config.get 'seti-icons-dev.noColor'
+    @iconsPlus atom.config.get 'seti-icons.iconsPlus'
+    @noColor atom.config.get 'seti-icons.noColor'
 
   update: ( enable, text ) ->
     body = document.querySelector 'body'

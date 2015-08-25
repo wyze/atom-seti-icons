@@ -7,6 +7,9 @@
     "seti",
     "icons"
   ],
+  "scripts": {
+    "postpublish": "github-changes -o wyze -r seti-icons -a --use-commit-body -m '(MM/DD/YYYY)' --no-merges"
+  },
   "repository": "https://github.com/wyze/seti-icons",
   "license": "MIT",
   "engines": {

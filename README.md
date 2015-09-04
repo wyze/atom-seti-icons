@@ -15,11 +15,9 @@
 
 [Full Change Log](CHANGELOG.md)
 
-### v0.4.4 (08/25/2015)
-- [c55f505](https://github.com/wyze/seti-icons/commit/c55f5058c4909d0058bb56a0c5d50e1fb5d78b87) Prepare 0.4.4 release (@wyze)
-- [04c721b](https://github.com/wyze/seti-icons/commit/04c721ba8955d40d42eb490c14ec90a3ef2ce786) fix positioning of folder icons with extensions; fixes #8 (@wyze)
-- [32c037f](https://github.com/wyze/seti-icons/commit/32c037fa94df3abf9af5f02514136f1690dc4bfe) adjust override for icons with one dark/light themes (@wyze)
-- [0af9626](https://github.com/wyze/seti-icons/commit/0af96267e9c1ad8112fefbef2af67460d1c159f5) revert pr #7; fixes #10 (@wyze)
+### v0.4.5 (09/03/2015)
+- [16c5eed](https://github.com/wyze/seti-icons/commit/16c5eedd3691c27f07f056b00afba72d755c4261) adjust margin for icons with Atom Material theme (@wyze)
+- [04ff09f](https://github.com/wyze/seti-icons/commit/04ff09fc70ab563910b7cdaedc68e4c72da98e9b) Add icons for .h & .hpp (@plieb)
 
 ## Credits
 

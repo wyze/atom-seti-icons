@@ -1,0 +1,44 @@
+// One Dark
+
+[theme-one-dark-ui-layoutmode],
+[theme-one-light-ui-layoutmode] {
+  .list-group,
+  .list-tree {
+    .icon::before {
+      vertical-align: bottom;
+    }
+  }
+}
+
+.theme-atom-material-ui {
+  // Tab Bar
+  .tab-icons & {
+    .tab-bar .tab.active .title {
+      padding-left: 24px;
+    }
+  }
+
+  .tab-icons-all & {
+    .tab-bar .tab .title {
+      padding-left: 24px;
+    }
+  }
+
+  .name.icon {
+    &.icon-repo:before {
+      left: -8px;
+      top: 5px;
+    }
+
+    &:before {
+      top: 4px;
+      margin-right: .75rem !important;
+    }
+
+    &[data-name$=".cpp"]:before,
+    &[data-name$=".c"]:before,
+    &[data-name$=".swift"]:before {
+      top: 2px;
+    }
+  }
+}

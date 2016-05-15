@@ -122,7 +122,10 @@
 	&@{pseudo-selector} {
 		&:extend(.icon-base-pseudo);
 		.icon-char(@filename);
-		color: @color;
+
+		body:not(.seti-icons-no-color) & {
+			color: @color;
+		}
 	}
 }
 

@@ -13,7 +13,7 @@
 
 ## Change Log
 
-[Full Change Log](CHANGELOG.md)
+[Full Change Log](changelog.md)
 
 ### v0.4.5 (09/03/2015)
 - [16c5eed](https://github.com/wyze/seti-icons/commit/16c5eedd3691c27f07f056b00afba72d755c4261) adjust margin for icons with Atom Material theme (@wyze)
@@ -27,4 +27,4 @@ Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti U
 
 Copyright © 2015-2016 [Neil Kistner](//github.com/wyze)
 
-Released under the MIT license. See [LICENSE](LICENSE) for details.
+Released under the MIT license. See [license](license) for details.

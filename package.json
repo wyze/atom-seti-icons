@@ -9,12 +9,19 @@
     "email": "neil.kistner@gmail.com",
     "url": "neilkistner.com"
   },
-  "main": "index",
+  "main": "lib/index",
   "keywords": [
     "seti",
     "icons"
   ],
   "engines": {
-    "atom": ">=1.5.0 <2.0.0"
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "configSchema": {
+    "noColor": {
+      "type": "boolean",
+      "default": false,
+      "description": "Display icons without color."
+    }
   }
 }

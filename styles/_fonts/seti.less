@@ -1,0 +1,398 @@
+@font-face {
+	font-family: 'seti';
+	src: url('atom://seti-icons/styles/_fonts/seti/seti.eot');
+	src: url('atom://seti-icons/styles/_fonts/seti/seti.eot?#iefix') format('eot'),
+		url('atom://seti-icons/styles/_fonts/seti/seti.woff2') format('woff2'),
+		url('atom://seti-icons/styles/_fonts/seti/seti.woff') format('woff'),
+		url('atom://seti-icons/styles/_fonts/seti/seti.ttf') format('truetype'),
+		url('atom://seti-icons/styles/_fonts/seti/seti.svg#seti') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+.icon-base-pseudo {
+	font-family: 'seti';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.icon-char(@filename) {
+	@apple: '\E001';
+	@audio: '\E002';
+	@bower: '\E003';
+	@c-sharp: '\E004';
+	@c: '\E005';
+	@cake_php: '\E006';
+	@cjsx: '\E007';
+	@clock: '\E008';
+	@coffee: '\E009';
+	@coffee_erb: '\E00A';
+	@coldfusion: '\E00B';
+	@config: '\E00C';
+	@cpp: '\E00D';
+	@css: '\E00E';
+	@csv: '\E00F';
+	@default: '\E010';
+	@deprecation-cop: '\E011';
+	@docker: '\E012';
+	@editorconfig: '\E013';
+	@ejs: '\E014';
+	@error: '\E015';
+	@favicon: '\E016';
+	@folder: '\E017';
+	@font: '\E018';
+	@git_folder: '\E019';
+	@git_ignore: '\E01A';
+	@github: '\E01B';
+	@go: '\E01C';
+	@go2: '\E01D';
+	@grails: '\E01E';
+	@grunt: '\E01F';
+	@gulp: '\E020';
+	@hacklang: '\E021';
+	@haml: '\E022';
+	@haskell: '\E023';
+	@heroku: '\E024';
+	@html: '\E025';
+	@html_erb: '\E026';
+	@ignored: '\E027';
+	@illustrator: '\E028';
+	@image: '\E029';
+	@jade: '\E02A';
+	@java: '\E02B';
+	@javascript: '\E02C';
+	@js_erb: '\E02D';
+	@json: '\E02E';
+	@julia: '\E02F';
+	@karma: '\E030';
+	@less: '\E031';
+	@license: '\E032';
+	@liquid: '\E033';
+	@livescript: '\E034';
+	@lua: '\E035';
+	@markdown: '\E036';
+	@mustache: '\E037';
+	@new-file: '\E038';
+	@npm: '\E039';
+	@npm_ignored: '\E03A';
+	@ocaml: '\E03B';
+	@pdf: '\E03C';
+	@perl: '\E03D';
+	@photoshop: '\E03E';
+	@php: '\E03F';
+	@project: '\E040';
+	@pug: '\E041';
+	@puppet: '\E042';
+	@python: '\E043';
+	@rails: '\E044';
+	@react: '\E045';
+	@ruby: '\E046';
+	@rust: '\E047';
+	@sass: '\E048';
+	@sbt: '\E049';
+	@scala: '\E04A';
+	@search: '\E04B';
+	@settings: '\E04C';
+	@shell: '\E04D';
+	@slim: '\E04E';
+	@smarty: '\E04F';
+	@stylus: '\E050';
+	@svg: '\E051';
+	@swift: '\E052';
+	@tex: '\E053';
+	@time-cop: '\E054';
+	@todo: '\E055';
+	@typescript: '\E056';
+	@vala: '\E057';
+	@video: '\E058';
+	@xml: '\E059';
+	@yml: '\E05A';
+
+	content: @@filename;
+}
+
+.icon(@filename, @color: @white, @insert: before) {
+	@pseudo-selector: ~':@{insert}';
+
+	&@{pseudo-selector} {
+		&:extend(.icon-base-pseudo);
+		.icon-char(@filename);
+		color: @color;
+	}
+}
+
+.icon-apple {
+	.icon(apple);
+}
+.icon-audio {
+	.icon(audio);
+}
+.icon-bower {
+	.icon(bower);
+}
+.icon-c-sharp {
+	.icon(c-sharp);
+}
+.icon-c {
+	.icon(c);
+}
+.icon-cake_php {
+	.icon(cake_php);
+}
+.icon-cjsx {
+	.icon(cjsx);
+}
+.icon-clock {
+	.icon(clock);
+}
+.icon-coffee {
+	.icon(coffee);
+}
+.icon-coffee_erb {
+	.icon(coffee_erb);
+}
+.icon-coldfusion {
+	.icon(coldfusion);
+}
+.icon-config {
+	.icon(config);
+}
+.icon-cpp {
+	.icon(cpp);
+}
+.icon-css {
+	.icon(css);
+}
+.icon-csv {
+	.icon(csv);
+}
+.icon-default {
+	.icon(default);
+}
+.icon-deprecation-cop {
+	.icon(deprecation-cop);
+}
+.icon-docker {
+	.icon(docker);
+}
+.icon-editorconfig {
+	.icon(editorconfig);
+}
+.icon-ejs {
+	.icon(ejs);
+}
+.icon-error {
+	.icon(error);
+}
+.icon-favicon {
+	.icon(favicon);
+}
+.icon-folder {
+	.icon(folder);
+}
+.icon-font {
+	.icon(font);
+}
+.icon-git_folder {
+	.icon(git_folder);
+}
+.icon-git_ignore {
+	.icon(git_ignore);
+}
+.icon-github {
+	.icon(github);
+}
+.icon-go {
+	.icon(go);
+}
+.icon-go2 {
+	.icon(go2);
+}
+.icon-grails {
+	.icon(grails);
+}
+.icon-grunt {
+	.icon(grunt);
+}
+.icon-gulp {
+	.icon(gulp);
+}
+.icon-hacklang {
+	.icon(hacklang);
+}
+.icon-haml {
+	.icon(haml);
+}
+.icon-haskell {
+	.icon(haskell);
+}
+.icon-heroku {
+	.icon(heroku);
+}
+.icon-html {
+	.icon(html);
+}
+.icon-html_erb {
+	.icon(html_erb);
+}
+.icon-ignored {
+	.icon(ignored);
+}
+.icon-illustrator {
+	.icon(illustrator);
+}
+.icon-image {
+	.icon(image);
+}
+.icon-jade {
+	.icon(jade);
+}
+.icon-java {
+	.icon(java);
+}
+.icon-javascript {
+	.icon(javascript);
+}
+.icon-js_erb {
+	.icon(js_erb);
+}
+.icon-json {
+	.icon(json);
+}
+.icon-julia {
+	.icon(julia);
+}
+.icon-karma {
+	.icon(karma);
+}
+.icon-less {
+	.icon(less);
+}
+.icon-license {
+	.icon(license);
+}
+.icon-liquid {
+	.icon(liquid);
+}
+.icon-livescript {
+	.icon(livescript);
+}
+.icon-lua {
+	.icon(lua);
+}
+.icon-markdown {
+	.icon(markdown);
+}
+.icon-mustache {
+	.icon(mustache);
+}
+.icon-new-file {
+	.icon(new-file);
+}
+.icon-npm {
+	.icon(npm);
+}
+.icon-npm_ignored {
+	.icon(npm_ignored);
+}
+.icon-ocaml {
+	.icon(ocaml);
+}
+.icon-pdf {
+	.icon(pdf);
+}
+.icon-perl {
+	.icon(perl);
+}
+.icon-photoshop {
+	.icon(photoshop);
+}
+.icon-php {
+	.icon(php);
+}
+.icon-project {
+	.icon(project);
+}
+.icon-pug {
+	.icon(pug);
+}
+.icon-puppet {
+	.icon(puppet);
+}
+.icon-python {
+	.icon(python);
+}
+.icon-rails {
+	.icon(rails);
+}
+.icon-react {
+	.icon(react);
+}
+.icon-ruby {
+	.icon(ruby);
+}
+.icon-rust {
+	.icon(rust);
+}
+.icon-sass {
+	.icon(sass);
+}
+.icon-sbt {
+	.icon(sbt);
+}
+.icon-scala {
+	.icon(scala);
+}
+.icon-search {
+	.icon(search);
+}
+.icon-settings {
+	.icon(settings);
+}
+.icon-shell {
+	.icon(shell);
+}
+.icon-slim {
+	.icon(slim);
+}
+.icon-smarty {
+	.icon(smarty);
+}
+.icon-stylus {
+	.icon(stylus);
+}
+.icon-svg {
+	.icon(svg);
+}
+.icon-swift {
+	.icon(swift);
+}
+.icon-tex {
+	.icon(tex);
+}
+.icon-time-cop {
+	.icon(time-cop);
+}
+.icon-todo {
+	.icon(todo);
+}
+.icon-typescript {
+	.icon(typescript);
+}
+.icon-vala {
+	.icon(vala);
+}
+.icon-video {
+	.icon(video);
+}
+.icon-xml {
+	.icon(xml);
+}
+.icon-yml {
+	.icon(yml);
+}

@@ -2,7 +2,7 @@
 
 > The awesome icons provided by Seti UI theme.
 
-![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot.png)
+![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)
 
 ## Settings
 
@@ -25,6 +25,6 @@ Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti U
 
 ## License
 
-Copyright (c) 2015 [Neil Kistner](//github.com/wyze)
+Copyright © 2015-2016 [Neil Kistner](//github.com/wyze)
 
 Released under the MIT license. See [LICENSE](LICENSE) for details.

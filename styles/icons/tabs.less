@@ -1,0 +1,33 @@
+.tab-bar .tab {
+
+  // SET ICON SIZE
+  .title::before {
+    font-size: 21px;
+    line-height: 16px;
+
+    // SETI-ICONS MODIFIED
+    // float: left;
+    margin-top: 10px;
+    margin-left: -20px;
+    position: absolute;
+  }
+
+  // IGNORED FILES
+  .file.status-ignored .icon {
+    .icon('ignored', @ignore);
+  }
+
+  // SET ICONS FOR ATOM VIEWS
+  .tab-icon("SettingsView", 'settings', @seti-primary);
+  .tab-icon("MarkdownPreviewView", 'markdown', @blue);
+  .tab-icon("DeprecationCopView", 'deprecation-cop', @seti-primary);
+  .tab-icon("TimecopView", 'time-cop', @seti-primary);
+  .tab-icon("ResultsPaneView", 'search', @seti-primary);
+
+  // NEW FILES
+  &[data-type="TextEditor"] .title:not([data-name]) {
+    .icon('new-file', @green);
+  }
+
+
+}

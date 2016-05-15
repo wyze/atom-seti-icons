@@ -1,18 +1,20 @@
 {
   "name": "seti-icons",
   "version": "0.4.5",
-  "main": "index",
   "description": "The awesome icons provided by Seti UI theme.",
+  "license": "MIT",
+  "repository": "wyze/atom-seti-icons",
+  "author": {
+    "name": "Neil Kistner",
+    "email": "neil.kistner@gmail.com",
+    "url": "neilkistner.com"
+  },
+  "main": "index",
   "keywords": [
     "seti",
     "icons"
   ],
-  "scripts": {
-    "postpublish": "github-changes -o wyze -r seti-icons -a --use-commit-body -m '(MM/DD/YYYY)' --no-merges"
-  },
-  "repository": "https://github.com/wyze/seti-icons",
-  "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.5.0 <2.0.0"
   }
 }

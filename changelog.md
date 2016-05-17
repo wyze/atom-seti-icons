@@ -1,5 +1,8 @@
 ## Change Log
 
+### v1.0.1 (05/17/2016)
+- Adjust theme override spacing for `atom-material-ui` ([83e870c](https://github.com/wyze/atom-seti-icons/commit/83e870cf58473f53db16cc44a3080d75603e3b2b), [a65aa38](https://github.com/wyze/atom-seti-icons/commit/a65aa38c424ac4b3102ec7eb6a5e141eaa740aa9))
+
 ### v1.0.0 (05/14/2016)
 - Update with icons from Seti UI v1.1.2 ([d1f70ab](https://github.com/wyze/atom-seti-icons/commit/d1f70abce06b5c9e78e5a35d155865936642c2d4))
 - Rename files for aesthetics ([b8fea42](https://github.com/wyze/atom-seti-icons/commit/b8fea4211ee1307e46d526dde3963af0e41fb30a))

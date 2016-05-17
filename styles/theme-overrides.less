@@ -10,35 +10,31 @@
   }
 }
 
-.theme-atom-material-ui {
+atom-workspace.theme-atom-material-ui {
   // Tab Bar
-  .tab-icons & {
-    .tab-bar .tab.active .title {
-      padding-left: 24px;
+  .tab-bar .tab {
+    .title:before {
+      margin-left: 0;
+      margin-right: 5px !important;
+      position: relative;
+      vertical-align: middle;
+    }
+
+    .icon-tools:before {
+      vertical-align: text-bottom;
     }
   }
 
-  .tab-icons-all & {
-    .tab-bar .tab .title {
-      padding-left: 24px;
-    }
-  }
-
-  .name.icon {
-    &.icon-repo:before {
-      left: -8px;
-      top: 5px;
-    }
-
+  .icon-file-directory {
     &:before {
-      top: 4px;
-      margin-right: .75rem !important;
+      margin-right: 10px !important;
     }
+  }
 
-    &[data-name$=".cpp"]:before,
-    &[data-name$=".c"]:before,
-    &[data-name$=".swift"]:before {
-      top: 2px;
+  .icon-file-text,
+  .icon-book {
+    &:before {
+      top: 6px;
     }
   }
 }

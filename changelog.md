@@ -1,5 +1,11 @@
 ## Change Log
 
+### v1.1.0 (05/19/2016)
+- Add Twig icon ([#18](https://github.com/wyze/atom-seti-icons/issues/18) via [73ee067](https://github.com/wyze/atom-seti-icons/commit/73ee0679421a8553626a010f2b25b952ffeae774))
+- Add Elm icon ([#15](https://github.com/wyze/atom-seti-icons/issues/15) via [0ac7401](https://github.com/wyze/atom-seti-icons/commit/0ac74018bd0627f12db135107c3367a8f5a29b17))
+- Fix icon spacing with One Dark in preview pane ([e30cb86]())
+- Remove conflicting theme overrides ([#21](https://github.com/wyze/atom-seti-icons/issues/21) via [543ddc1](https://github.com/wyze/atom-seti-icons/commit/543ddc193c537911b30ce5ce8a6d512253f575df))
+
 ### v1.0.1 (05/17/2016)
 - Adjust theme override spacing for `atom-material-ui` ([83e870c](https://github.com/wyze/atom-seti-icons/commit/83e870cf58473f53db16cc44a3080d75603e3b2b), [a65aa38](https://github.com/wyze/atom-seti-icons/commit/a65aa38c424ac4b3102ec7eb6a5e141eaa740aa9))
 

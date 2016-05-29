@@ -52,68 +52,71 @@
 	@github: '\E01C';
 	@go: '\E01D';
 	@go2: '\E01E';
-	@grails: '\E01F';
-	@grunt: '\E020';
-	@gulp: '\E021';
-	@hacklang: '\E022';
-	@haml: '\E023';
-	@haskell: '\E024';
-	@heroku: '\E025';
-	@html: '\E026';
-	@html_erb: '\E027';
-	@ignored: '\E028';
-	@illustrator: '\E029';
-	@image: '\E02A';
-	@jade: '\E02B';
-	@java: '\E02C';
-	@javascript: '\E02D';
-	@js_erb: '\E02E';
-	@json: '\E02F';
-	@julia: '\E030';
-	@karma: '\E031';
-	@less: '\E032';
-	@license: '\E033';
-	@liquid: '\E034';
-	@livescript: '\E035';
-	@lua: '\E036';
-	@markdown: '\E037';
-	@mustache: '\E038';
-	@new-file: '\E039';
-	@npm: '\E03A';
-	@npm_ignored: '\E03B';
-	@ocaml: '\E03C';
-	@pdf: '\E03D';
-	@perl: '\E03E';
-	@photoshop: '\E03F';
-	@php: '\E040';
-	@project: '\E041';
-	@pug: '\E042';
-	@puppet: '\E043';
-	@python: '\E044';
-	@rails: '\E045';
-	@react: '\E046';
-	@ruby: '\E047';
-	@rust: '\E048';
-	@sass: '\E049';
-	@sbt: '\E04A';
-	@scala: '\E04B';
-	@search: '\E04C';
-	@settings: '\E04D';
-	@shell: '\E04E';
-	@slim: '\E04F';
-	@smarty: '\E050';
-	@stylus: '\E051';
-	@svg: '\E052';
-	@swift: '\E053';
-	@tex: '\E054';
-	@time-cop: '\E055';
-	@todo: '\E056';
-	@twig: '\E057';
-	@typescript: '\E058';
-	@vala: '\E059';
-	@video: '\E05A';
-	@xml: '\E05B';
-	@yml: '\E05C';
+	@gradle: '\E01F';
+	@grails: '\E020';
+	@grunt: '\E021';
+	@gulp: '\E022';
+	@hacklang: '\E023';
+	@haml: '\E024';
+	@haskell: '\E025';
+	@heroku: '\E026';
+	@html: '\E027';
+	@html_erb: '\E028';
+	@ignored: '\E029';
+	@illustrator: '\E02A';
+	@image: '\E02B';
+	@ionic: '\E02C';
+	@jade: '\E02D';
+	@java: '\E02E';
+	@javascript: '\E02F';
+	@js_erb: '\E030';
+	@json: '\E031';
+	@julia: '\E032';
+	@karma: '\E033';
+	@less: '\E034';
+	@license: '\E035';
+	@liquid: '\E036';
+	@livescript: '\E037';
+	@lua: '\E038';
+	@markdown: '\E039';
+	@mustache: '\E03A';
+	@new-file: '\E03B';
+	@npm: '\E03C';
+	@npm_ignored: '\E03D';
+	@ocaml: '\E03E';
+	@pdf: '\E03F';
+	@perl: '\E040';
+	@photoshop: '\E041';
+	@php: '\E042';
+	@project: '\E043';
+	@pug: '\E044';
+	@puppet: '\E045';
+	@python: '\E046';
+	@rails: '\E047';
+	@react: '\E048';
+	@ruby: '\E049';
+	@rust: '\E04A';
+	@sass: '\E04B';
+	@sbt: '\E04C';
+	@scala: '\E04D';
+	@search: '\E04E';
+	@settings: '\E04F';
+	@shell: '\E050';
+	@slim: '\E051';
+	@smarty: '\E052';
+	@stylus: '\E053';
+	@svg: '\E054';
+	@swift: '\E055';
+	@terraform: '\E056';
+	@tex: '\E057';
+	@time-cop: '\E058';
+	@todo: '\E059';
+	@twig: '\E05A';
+	@typescript: '\E05B';
+	@vala: '\E05C';
+	@video: '\E05D';
+	@xml: '\E05E';
+	@yml: '\E05F';
 
 	content: @@filename;
 }
@@ -124,10 +127,7 @@
 	&@{pseudo-selector} {
 		&:extend(.icon-base-pseudo);
 		.icon-char(@filename);
-
-		body:not(.seti-icons-no-color) & {
-			color: @color;
-		}
+		color: @color;
 	}
 }
 
@@ -221,6 +221,9 @@
 .icon-go2 {
 	.icon(go2);
 }
+.icon-gradle {
+	.icon(gradle);
+}
 .icon-grails {
 	.icon(grails);
 }
@@ -256,6 +259,9 @@
 }
 .icon-image {
 	.icon(image);
+}
+.icon-ionic {
+	.icon(ionic);
 }
 .icon-jade {
 	.icon(jade);
@@ -379,6 +385,9 @@
 }
 .icon-swift {
 	.icon(swift);
+}
+.icon-terraform {
+	.icon(terraform);
 }
 .icon-tex {
 	.icon(tex);

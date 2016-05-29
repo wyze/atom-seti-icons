@@ -17,11 +17,17 @@
 
 [Full Change Log](changelog.md)
 
-### v1.1.0 (05/19/2016)
-- Add Twig icon ([#18](https://github.com/wyze/atom-seti-icons/issues/18) via [73ee067](https://github.com/wyze/atom-seti-icons/commit/73ee0679421a8553626a010f2b25b952ffeae774))
-- Add Elm icon ([#15](https://github.com/wyze/atom-seti-icons/issues/15) via [0ac7401](https://github.com/wyze/atom-seti-icons/commit/0ac74018bd0627f12db135107c3367a8f5a29b17))
-- Fix icon spacing with One Dark in preview pane ([e30cb86]())
-- Remove conflicting theme overrides ([#21](https://github.com/wyze/atom-seti-icons/issues/21) via [543ddc1](https://github.com/wyze/atom-seti-icons/commit/543ddc193c537911b30ce5ce8a6d512253f575df))
+### v1.2.0 (05/29/2016)
+- Add changes from seti-ui v1.2.3 ([#24](https://github.com/wyze/atom-seti-icons/issues/24) via [cb8ba81](https://github.com/wyze/atom-seti-icons/commit/cb8ba819ecd9c4b9cf458e0576b0259453f5468a))
+  - New Icons
+    - Audio files (.mp3, .oog)
+    - Gradle (.gradle)
+    - Ionic (ionic.project, ionic.config.json)
+    - Terraform (.tf, .tf.json)
+  - Updated Icons
+    - Audio files (.wav)
+- Update objective c file icons ([#27](https://github.com/wyze/atom-seti-icons/pull/27) via [6134bbc](https://github.com/wyze/atom-seti-icons/commit/6134bbc2edfbeba68aece38dc8e122b9da82ef70))
+- Fix project icon to match seti-ui ([#25](https://github.com/wyze/atom-seti-icons/issues/25) via [711215f](https://github.com/wyze/atom-seti-icons/commit/711215fdf3ca5c570c36c992448230cfe908eefa))
 
 ## Credits
 

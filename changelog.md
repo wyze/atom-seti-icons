@@ -1,5 +1,8 @@
 ## Change Log
 
+### v1.2.1 (05/31/2016)
+- Fix `No Color` setting, again ([#30](https://github.com/wyze/atom-seti-icons/issues/30) via [245ec03](https://github.com/wyze/atom-seti-icons/commit/245ec03d239738cd5ce9a22308576a7113fc7d57))
+
 ### v1.2.0 (05/29/2016)
 - Add changes from seti-ui v1.2.3 ([#24](https://github.com/wyze/atom-seti-icons/issues/24) via [cb8ba81](https://github.com/wyze/atom-seti-icons/commit/cb8ba819ecd9c4b9cf458e0576b0259453f5468a))
   - New Icons

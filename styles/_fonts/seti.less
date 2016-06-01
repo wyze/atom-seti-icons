@@ -121,16 +121,6 @@
 	content: @@filename;
 }
 
-.icon(@filename, @color: @white, @insert: before) {
-	@pseudo-selector: ~':@{insert}';
-
-	&@{pseudo-selector} {
-		&:extend(.icon-base-pseudo);
-		.icon-char(@filename);
-		color: @color;
-	}
-}
-
 .icon-apple {
 	.icon(apple);
 }

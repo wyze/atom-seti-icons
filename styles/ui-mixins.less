@@ -28,3 +28,17 @@
     .icon(@file-type, @color);
   }
 }
+
+// ICON BASE, KEEP HERE TO PREVENT BREAKING `No Color` SETTING
+.icon(@filename, @color: @white, @insert: before) {
+  @pseudo-selector: ~':@{insert}';
+
+  &@{pseudo-selector} {
+    &:extend(.icon-base-pseudo);
+    .icon-char(@filename);
+
+    body:not(.seti-icons-no-color) & {
+      color: @color;
+    }
+  }
+}

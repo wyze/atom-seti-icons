@@ -43,4 +43,27 @@ atom-workspace {
       }
     }
   }
+
+  // Seti
+  &.theme-seti-ui {
+    // Tab Bar
+    .tab-bar .tab {
+      .title:before {
+        float: none;
+        margin-left: 0;
+        margin-right: 5px !important;
+        position: relative;
+        vertical-align: middle;
+      }
+
+      .title.icon:before {
+        margin-top: 0;
+        vertical-align: middle;
+      }
+    }
+
+    .name.icon.icon-repo:before {
+      top: -3px;
+    }
+  }
 }

@@ -17,8 +17,8 @@
 
 [Full Change Log](changelog.md)
 
-### v1.2.1 (05/31/2016)
-- Fix `No Color` setting, again ([#30](https://github.com/wyze/atom-seti-icons/issues/30) via [245ec03](https://github.com/wyze/atom-seti-icons/commit/245ec03d239738cd5ce9a22308576a7113fc7d57))
+### v1.2.2 (06/18/2016)
+- Add theme override for Seti ([#28](https://github.com/wyze/atom-seti-icons/issues/28) via [b6c41af](https://github.com/wyze/atom-seti-icons/commit/b6c41af9bed2590227f0828daa394a203c0c52ca))
 
 ## Credits
 

@@ -17,8 +17,8 @@
 
 [Full Change Log](changelog.md)
 
-### v1.2.2 (06/18/2016)
-- Add theme override for Seti ([#28](https://github.com/wyze/atom-seti-icons/issues/28) via [b6c41af](https://github.com/wyze/atom-seti-icons/commit/b6c41af9bed2590227f0828daa394a203c0c52ca))
+### v1.3.0 (06/23/2016)
+- Add changes from Seti UI v1.3.2 ([d60bc1c](https://github.com/wyze/atom-seti-icons/commit/d60bc1c)), closes [#29](https://github.com/wyze/atom-seti-icons/issues/29)
 
 ## Credits
 

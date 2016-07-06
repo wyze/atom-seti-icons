@@ -17,8 +17,8 @@
 
 [Full Change Log](changelog.md)
 
-### v1.3.1 (06/24/2016)
-- Fix `No Color` setting, again ([4251edb](https://github.com/wyze/atom-seti-icons/commit/4251edb)), closes [#32](https://github.com/wyze/atom-seti-icons/issues/32)
+### v1.3.2 (07/05/2016)
+- Add override in sidebar for Atom Dark/Light ([d9f18ec](https://github.com/wyze/atom-seti-icons/commit/d9f18ec)), closes [#33](https://github.com/wyze/atom-seti-icons/issues/33)
 
 ## Credits
 

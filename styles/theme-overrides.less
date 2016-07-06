@@ -14,6 +14,19 @@ atom-workspace {
     }
   }
 
+  // Atom Dark/Atom Light
+  &.theme-atom-dark-ui,
+  &.theme-atom-light-ui {
+    // Sidebar
+    .entries.list-tree {
+      .file .icon {
+        &::before {
+          top: 7px;
+        }
+      }
+    }
+  }
+
   // Atom Material
   &.theme-atom-material-ui {
     // Tab Bar

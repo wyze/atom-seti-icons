@@ -17,8 +17,8 @@
 
 [Full Change Log](changelog.md)
 
-### v1.3.2 (07/05/2016)
-- Add override in sidebar for Atom Dark/Light ([d9f18ec](https://github.com/wyze/atom-seti-icons/commit/d9f18ec)), closes [#33](https://github.com/wyze/atom-seti-icons/issues/33)
+### v1.3.3 (2016-09-03)
+- Add override for Genesis theme ([484d4eb](https://github.com/wyze/atom-seti-icons/commit/484d4eb)), closes [#36](https://github.com/wyze/atom-seti-icons/issues/36)
 
 ## Credits
 

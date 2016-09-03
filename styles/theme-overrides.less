@@ -1,5 +1,6 @@
 atom-workspace {
-  // One Dark/One Light
+  // One Dark, One Light, Genesis
+  &.theme-genesis-ui,
   &.theme-one-dark-ui,
   &.theme-one-light-ui {
     // Find in Project
@@ -14,7 +15,8 @@ atom-workspace {
     }
   }
 
-  // Atom Dark/Atom Light
+  // Atom Dark, Atom Light, Genesis
+  &.theme-genesis-ui,
   &.theme-atom-dark-ui,
   &.theme-atom-light-ui {
     // Sidebar
@@ -23,6 +25,16 @@ atom-workspace {
         &::before {
           top: 7px;
         }
+      }
+    }
+  }
+
+  &.theme-genesis-ui {
+    // Tab Bar
+    .tab-bar .tab {
+      .title:before {
+        position: relative;
+        vertical-align: middle;
       }
     }
   }

@@ -32,9 +32,16 @@ atom-workspace {
   &.theme-genesis-ui {
     // Tab Bar
     .tab-bar .tab {
-      .title:before {
-        position: relative;
-        vertical-align: middle;
+      .title {
+        &:before {
+          position: relative;
+          vertical-align: middle;
+        }
+
+        // Settings Icon
+        &.icon-tools:before {
+          margin-top: -4px;
+        }
       }
     }
   }

@@ -17,8 +17,10 @@
 
 [Full Change Log](changelog.md)
 
-### v1.3.3 (2016-09-03)
-- Add override for Genesis theme ([484d4eb](https://github.com/wyze/atom-seti-icons/commit/484d4eb)), closes [#36](https://github.com/wyze/atom-seti-icons/issues/36)
+### v1.3.4 (2016-09-29)
+
+- Add override for nova-atom-ui ([d60335f](https://github.com/wyze/atom-seti-icons/commit/d60335f))
+- Adjust Settings icon for Genesis theme ([60e2e03](https://github.com/wyze/atom-seti-icons/commit/60e2e03)), closes [#41](https://github.com/wyze/atom-seti-icons/issues/41)
 
 ## Credits
 

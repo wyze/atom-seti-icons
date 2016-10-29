@@ -117,24 +117,25 @@ atom-workspace {
     }
   }
 
-// Spacegray Dark
+  // Spacegray Dark
   &.theme-spacegray-dark-ui {
     //Sidebar
     .entries.list-tree .file .icon::before {
-        vertical-align: middle;
-        top: 0;
+      vertical-align: middle;
+      top: 0;
     }
+
     //Tab Bar
-    .tab-bar .tab .title::before {
+    .tab-bar .tab {
+      margin-left: 28px;
+
+      .title::before {
         font-size: 22px;
         line-height: 9px;
         margin-left: -26px;
         margin-top: 10px;
         position: absolute;
-    }
-
-    .tab-bar .tab {
-        margin-left: 28px;
+      }
     }
   }
 }

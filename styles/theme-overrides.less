@@ -139,3 +139,26 @@ atom-workspace {
     }
   }
 }
+
+// One Dark, One Light with minimum tab sizing
+.one-dark-light-theme-minimum-tab-sizing() {
+  .tab-bar .tab .title {
+    &::before {
+      position: static;
+      margin-top: 0;
+      margin-left: 0;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  [theme-one-dark-ui-tabsizing="auto"], [theme-one-light-ui-tabsizing="auto"] {
+    .one-dark-light-theme-minimum-tab-sizing();
+  }
+}
+
+[theme-one-dark-ui-tabsizing="minimum"], [theme-one-light-ui-tabsizing="minimum"] {
+  .one-dark-light-theme-minimum-tab-sizing();
+}

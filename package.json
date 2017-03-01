@@ -10,6 +10,12 @@
     "url": "neilkistner.com"
   },
   "main": "lib/index",
+  "scripts": {
+    "changelog": "conventional-changelog -i changelog.md -s -u"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^1.2.0"
+  },
   "keywords": [
     "seti",
     "icons"

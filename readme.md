@@ -3,7 +3,7 @@
 [![apm][apm-image]][apm-url]
 [![apmi][apmi-image]][apmi-url]
 
-> The awesome icons provided by Seti UI theme.
+> The awesome icons provided by [Seti UI](https://github.com/jesseweed/seti-ui) theme.
 
 ![Seti UI](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)
 
@@ -28,9 +28,7 @@ Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti U
 
 ## License
 
-Copyright © 2015-2016 [Neil Kistner](//github.com/wyze)
-
-Released under the MIT license. See [license](license) for details.
+MIT © [Neil Kistner](https://neilkistner.com)
 
 [apm-image]: https://img.shields.io/apm/v/seti-icons.svg?style=flat-square
 [apm-url]: https://atom.io/packages/seti-icons

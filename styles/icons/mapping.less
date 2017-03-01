@@ -4,20 +4,34 @@
 
 // DEFAULT ICON
 .icon-file-binary, .icon-file-pdf, .icon-file-text, .icon-book, .icon-file-media, .icon-markdown, .title {
-  .icon('default', @white)
+  .icon('default', @white);
 }
 
-.icon-set('.cpp', 'default', @blue);
+// 1C:Enterprise
+.icon-set('.bsl', 'bsl', @red);
+.icon-set('.mdo', 'mdo', @red);
+
+// Assembly
+.icon-set('.asm', 'asm', @red);
+.icon-set('.s', 'asm', @red);
 
 // C
 .icon-set('.c', 'c', @blue);
+.icon-set('.h', 'c', @purple);
+.icon-set('.m', 'c', @yellow);
 
-// C#
+// C♯
 .icon-set('.cs', 'c-sharp', @blue);
 
 // C++
 .icon-set('.cc', 'cpp', @blue);
 .icon-set('.cpp', 'cpp', @blue);
+.icon-set('.cxx', 'cpp', @blue);
+.icon-set('.c++', 'cpp', @blue);
+.icon-set('.hh', 'cpp', @purple);
+.icon-set('.hpp', 'cpp', @purple);
+.icon-set('.hxx', 'cpp', @purple);
+.icon-set('.h++', 'cpp', @purple);
 
 // COLDFUSION
 .icon-set('.cfc', 'coldfusion', @blue);
@@ -28,6 +42,8 @@
 
 // CONFIG
 .icon-set('.config', 'config', @grey-light);
+.icon-set('.cfg', 'config', @grey-light);
+.icon-set('.conf', 'config', @grey-light);
 
 // CSON
 .icon-set('.cson', 'json', @yellow);
@@ -39,12 +55,27 @@
 
 // CSV
 .icon-set('.csv', 'csv', @green);
+.icon-set('.xls', 'xls', @green);
+.icon-set('.xlsx', 'xls', @green);
 
-// CAKE PHP
+// CAKE
+.icon-set('.cake', 'cake', @red);
 .icon-set('.ctp', 'cake_php', @red);
+
+// D
+.icon-set('.d', 'd', @red);
+
+// DOC
+.icon-set('.doc', 'word', @blue);
+.icon-set('.docx', 'word', @blue);
 
 // EJS
 .icon-set('.ejs', 'ejs', @yellow);
+
+// ELIXIR
+.icon-set('.ex', 'elixir', @purple);
+.icon-set('.exs', 'elixir_script', @purple);
+.icon-partial('mix', 'hex', @red);
 
 // ELM
 .icon-set('.elm', 'elm', @blue);
@@ -57,6 +88,7 @@
 .icon-set('.gitconfig', 'github', @white);
 .icon-set('.gitkeep', 'github', @white);
 .icon-set('.gitattributes', 'github', @white);
+.icon-set('.gitmodules', 'github', @white);
 
 // GO
 .icon-set('.go', 'go2', @blue);
@@ -69,9 +101,6 @@
 // GRAILS
 .icon-set('.groovy', 'grails', @green);
 .icon-set('.gsp', 'grails', @green);
-
-// HACKLANG
-.icon-set('.hh', 'hacklang', @orange);
 
 // HAML
 .icon-set('.haml', 'haml', @red);
@@ -95,6 +124,7 @@
 .icon-set('.java', 'java', @red);
 .icon-set('.class', 'java', @red);
 .icon-set('.classpath', 'java', @red);
+.icon-set('.properties', 'java', @red);
 
 // JAVASCRIPT
 .icon-set('.js', 'javascript', @yellow);
@@ -130,17 +160,25 @@
 .icon-set('.markdown', 'markdown', @blue);
 .icon-set('.md', 'markdown', @blue);
 
+// MAVEN
+.icon-set('mvnw', 'maven', @red);
+
 // MUSTACHE
 .icon-set('.mustache', 'mustache', @orange);
 .icon-set('.stache', 'mustache', @orange);
 
 // NPM
+.icon-set('.njk', 'nunjucks', @green);
+.icon-set('.nunjucks', 'nunjucks', @green);
+.icon-set('.nunjs', 'nunjucks', @green);
+.icon-set('.nunj', 'nunjucks', @green);
+.icon-set('.njs', 'nunjucks', @green);
+.icon-set('.nj', 'nunjucks', @green);
+
+// NPM
 .icon-set('.npm-debug.log', 'npm', @ignore);
 .icon-set('.npmignore', 'npm', @red);
-
-// OBJECTIVE C
-.icon-set('.h', 'c', @purple);
-.icon-set('.m', 'c', @yellow);
+.icon-set('.npmrc', 'npm', @red);
 
 // OCAML
 .icon-set('.ml', 'ocaml', @orange);
@@ -159,7 +197,8 @@
 .icon-set('.pug', 'pug', @blue);
 
 // PUPPET .pp
-.icon-set('.pp', 'puppet', @purple);
+.icon-set('.pp', 'puppet', @yellow);
+.icon-set('.epp', 'puppet', @yellow);
 
 // PYTHON
 .icon-set('.py', 'python', @blue);
@@ -182,6 +221,9 @@
 .icon-set('.sass', 'sass', @pink);
 .icon-set('.scss', 'sass', @pink);
 
+// SPRING
+.icon-set('.springBeans', 'spring', @green);
+
 // SLIM
 .icon-set('.slim', 'slim', @orange);
 
@@ -199,6 +241,9 @@
 
 // SWIFT
 .icon-set('.swift', 'swift', @orange);
+
+// SQL
+.icon-set('.sql', 'db', @pink);
 
 // TERRAFORM
 .icon-set('.tf', 'terraform', @purple);
@@ -256,11 +301,11 @@
 .icon-set('.svgx', 'image', @purple);
 
 // SHELL
-.icon-set('.cmd', 'shell', @grey);
 .icon-set('.sh', 'shell', @grey);
 .icon-set('.zsh', 'shell', @grey);
 .icon-set('.fish', 'shell', @grey);
 .icon-set('.zshrc', 'shell', @grey);
+.icon-set('.bashrc', 'shell', @grey);
 
 // VIDEO FILES
 .icon-set('.mov', 'video', @pink);
@@ -275,9 +320,16 @@
 .icon-set('.ogg', 'audio', @purple);
 .icon-set('.wav', 'audio', @purple);
 
+// WINDOWS
+.icon-set('.bat', 'windows', @blue);
+.icon-set('.cmd', 'windows', @blue);
+
 // - - - - - - - - -
 //  NAME BASED ICONS
 // - - - - - - - - -
+
+// BABEL
+.icon-set('.babelrc', 'babel', @yellow);
 
 // BOWER
 .icon-set('bower.json', 'bower', @orange);
@@ -288,6 +340,9 @@
 .icon-partial('dockerfile', 'docker', @blue);
 .icon-partial('Dockerfile', 'docker', @blue);
 .icon-partial('DOCKERFILE', 'docker', @blue);
+
+// ESLINT
+.icon-set('.eslintrc', 'eslint', @purple);
 
 // GRUNT
 .icon-set('Gruntfile.js', 'grunt', @orange);
@@ -312,6 +367,18 @@
 .icon-set('.jshintrc', 'javascript', @blue);
 .icon-set('.jscsrc', 'javascript', @blue);
 
+// ROLLUP
+.icon-set('rollup.config.js', 'rollup', @red);
+
+// SASS LINT
+.icon-set('sass-lint.yml', 'sass', @pink);
+
+// YARN
+.icon-set('yarn.clean', 'yarn', @blue);
+.icon-set('yarn.lock', 'yarn', @blue);
+
+
+
 // MISC SETTING
 .icon-set('.direnv', 'config', @grey-light);
 .icon-set('.env', 'config', @grey-light);
@@ -320,8 +387,28 @@
 .icon-set('.slugignore', 'config', @grey-light);
 .icon-set('.tmp', 'clock', @grey-light);
 
-// LICENSE FILE
+// LICENSE FILES
 .icon-partial('LICENSE', 'license', @yellow);
+.icon-partial('LICENCE', 'license', @yellow);
+.icon-partial('COPYING', 'license', @yellow);
+.icon-partial('COMPILING', 'license', @orange);
+.icon-partial('CONTRIBUTING', 'license', @red);
+.icon-partial('README', 'markdown', @pink);
+
+// MAKEFILES
+.icon-partial('MAKEFILE', 'makefile', @orange);
+.icon-partial('Makefile', 'makefile', @orange);
+.icon-partial('makefile', 'makefile', @orange);
+.icon-partial('QMAKEFILE', 'makefile', @purple);
+.icon-partial('QMakefile', 'makefile', @purple);
+.icon-partial('qmakefile', 'makefile', @purple);
+.icon-partial('OMAKEFILE', 'makefile', @grey-light);
+.icon-partial('OMakefile', 'makefile', @grey-light);
+.icon-partial('omakefile', 'makefile', @grey-light);
+.icon-partial('CMAKELISTS.TXT', 'makefile', @blue);
+.icon-partial('CMAKELISTS.txt', 'makefile', @blue);
+.icon-partial('CMakeLists.txt', 'makefile', @blue);
+.icon-partial('cmakelists.txt', 'makefile', @blue);
 
 // PROCFILE
 .icon-partial('Procfile', 'heroku', @purple);

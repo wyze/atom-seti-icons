@@ -23,121 +23,163 @@
 
 .icon-char(@filename) {
 	@apple: '\E001';
-	@audio: '\E002';
-	@bower: '\E003';
-	@c-sharp: '\E004';
-	@c: '\E005';
-	@cake_php: '\E006';
-	@checkbox-unchecked: '\E007';
-	@checkbox: '\E008';
-	@cjsx: '\E009';
-	@clock: '\E00A';
-	@coffee: '\E00B';
-	@coffee_erb: '\E00C';
-	@coldfusion: '\E00D';
-	@config: '\E00E';
-	@cpp: '\E00F';
-	@css: '\E010';
-	@csv: '\E011';
-	@default: '\E012';
-	@deprecation-cop: '\E013';
-	@docker: '\E014';
-	@editorconfig: '\E015';
-	@ejs: '\E016';
-	@elm: '\E017';
-	@error: '\E018';
-	@favicon: '\E019';
-	@folder: '\E01A';
-	@font: '\E01B';
-	@git_folder: '\E01C';
-	@git_ignore: '\E01D';
-	@github: '\E01E';
-	@go: '\E01F';
-	@go2: '\E020';
-	@gradle: '\E021';
-	@grails: '\E022';
-	@grunt: '\E023';
-	@gulp: '\E024';
-	@hacklang: '\E025';
-	@haml: '\E026';
-	@haskell: '\E027';
-	@heroku: '\E028';
-	@html: '\E029';
-	@html_erb: '\E02A';
-	@ignored: '\E02B';
-	@illustrator: '\E02C';
-	@image: '\E02D';
-	@info: '\E02E';
-	@ionic: '\E02F';
-	@jade: '\E030';
-	@java: '\E031';
-	@javascript: '\E032';
-	@js_erb: '\E033';
-	@json: '\E034';
-	@julia: '\E035';
-	@karma: '\E036';
-	@less: '\E037';
-	@license: '\E038';
-	@liquid: '\E039';
-	@livescript: '\E03A';
-	@lua: '\E03B';
-	@markdown: '\E03C';
-	@mustache: '\E03D';
-	@new-file: '\E03E';
-	@npm: '\E03F';
-	@npm_ignored: '\E040';
-	@ocaml: '\E041';
-	@pdf: '\E042';
-	@perl: '\E043';
-	@photoshop: '\E044';
-	@php: '\E045';
-	@project: '\E046';
-	@pug: '\E047';
-	@puppet: '\E048';
-	@python: '\E049';
-	@rails: '\E04A';
-	@react: '\E04B';
-	@ruby: '\E04C';
-	@rust: '\E04D';
-	@sass: '\E04E';
-	@sbt: '\E04F';
-	@scala: '\E050';
-	@search: '\E051';
-	@settings: '\E052';
-	@shell: '\E053';
-	@slim: '\E054';
-	@smarty: '\E055';
-	@stylus: '\E056';
-	@svg: '\E057';
-	@swift: '\E058';
-	@terraform: '\E059';
-	@tex: '\E05A';
-	@time-cop: '\E05B';
-	@todo: '\E05C';
-	@twig: '\E05D';
-	@typescript: '\E05E';
-	@vala: '\E05F';
-	@video: '\E060';
-	@xml: '\E061';
-	@yml: '\E062';
+	@asm: '\E002';
+	@audio: '\E003';
+	@babel: '\E004';
+	@bower: '\E005';
+	@bsl: '\E006';
+	@c-sharp: '\E007';
+	@c: '\E008';
+	@cake: '\E009';
+	@cake_php: '\E00A';
+	@checkbox-unchecked: '\E00B';
+	@checkbox: '\E00C';
+	@cjsx: '\E00D';
+	@clock: '\E00E';
+	@coffee: '\E00F';
+	@coffee_erb: '\E010';
+	@coldfusion: '\E011';
+	@config: '\E012';
+	@cpp: '\E013';
+	@css: '\E014';
+	@csv: '\E015';
+	@d: '\E016';
+	@db: '\E017';
+	@default: '\E018';
+	@deprecation-cop: '\E019';
+	@docker: '\E01A';
+	@editorconfig: '\E01B';
+	@ejs: '\E01C';
+	@elixir: '\E01D';
+	@elixir_script: '\E01E';
+	@elm: '\E01F';
+	@error: '\E020';
+	@eslint: '\E021';
+	@favicon: '\E022';
+	@folder: '\E023';
+	@font: '\E024';
+	@git_folder: '\E025';
+	@git_ignore: '\E026';
+	@github: '\E027';
+	@go: '\E028';
+	@go2: '\E029';
+	@gradle: '\E02A';
+	@grails: '\E02B';
+	@grunt: '\E02C';
+	@gulp: '\E02D';
+	@hacklang: '\E02E';
+	@haml: '\E02F';
+	@haskell: '\E030';
+	@heroku: '\E031';
+	@hex: '\E032';
+	@html: '\E033';
+	@html_erb: '\E034';
+	@ignored: '\E035';
+	@illustrator: '\E036';
+	@image: '\E037';
+	@info: '\E038';
+	@ionic: '\E039';
+	@jade: '\E03A';
+	@java: '\E03B';
+	@javascript: '\E03C';
+	@js_erb: '\E03D';
+	@json: '\E03E';
+	@julia: '\E03F';
+	@karma: '\E040';
+	@less: '\E041';
+	@license: '\E042';
+	@liquid: '\E043';
+	@livescript: '\E044';
+	@lua: '\E045';
+	@makefile: '\E046';
+	@markdown: '\E047';
+	@maven: '\E048';
+	@mdo: '\E049';
+	@mustache: '\E04A';
+	@new-file: '\E04B';
+	@npm: '\E04C';
+	@npm_ignored: '\E04D';
+	@nunjucks: '\E04E';
+	@ocaml: '\E04F';
+	@pdf: '\E050';
+	@perl: '\E051';
+	@photoshop: '\E052';
+	@php: '\E053';
+	@project: '\E054';
+	@pug: '\E055';
+	@puppet: '\E056';
+	@python: '\E057';
+	@rails: '\E058';
+	@react: '\E059';
+	@rollup: '\E05A';
+	@ruby: '\E05B';
+	@rust: '\E05C';
+	@sass: '\E05D';
+	@sbt: '\E05E';
+	@scala: '\E05F';
+	@search: '\E060';
+	@settings: '\E061';
+	@shell: '\E062';
+	@slim: '\E063';
+	@smarty: '\E064';
+	@spring: '\E065';
+	@stylus: '\E066';
+	@svg: '\E067';
+	@swift: '\E068';
+	@terraform: '\E069';
+	@tex: '\E06A';
+	@time-cop: '\E06B';
+	@todo: '\E06C';
+	@twig: '\E06D';
+	@typescript: '\E06E';
+	@vala: '\E06F';
+	@video: '\E070';
+	@windows: '\E071';
+	@word: '\E072';
+	@xls: '\E073';
+	@xml: '\E074';
+	@yarn: '\E075';
+	@yml: '\E076';
 
 	content: @@filename;
+}
+
+.icon(@filename, @color: @white, @insert: before) {
+	@pseudo-selector: ~':@{insert}';
+
+	&@{pseudo-selector} {
+		&:extend(.icon-base-pseudo);
+		.icon-char(@filename);
+		color: @color;
+	}
 }
 
 .icon-apple {
 	.icon(apple);
 }
+.icon-asm {
+	.icon(asm);
+}
 .icon-audio {
 	.icon(audio);
 }
+.icon-babel {
+	.icon(babel);
+}
 .icon-bower {
 	.icon(bower);
+}
+.icon-bsl {
+	.icon(bsl);
 }
 .icon-c-sharp {
 	.icon(c-sharp);
 }
 .icon-c {
 	.icon(c);
+}
+.icon-cake {
+	.icon(cake);
 }
 .icon-cake_php {
 	.icon(cake_php);
@@ -175,6 +217,12 @@
 .icon-csv {
 	.icon(csv);
 }
+.icon-d {
+	.icon(d);
+}
+.icon-db {
+	.icon(db);
+}
 .icon-default {
 	.icon(default);
 }
@@ -190,11 +238,20 @@
 .icon-ejs {
 	.icon(ejs);
 }
+.icon-elixir {
+	.icon(elixir);
+}
+.icon-elixir_script {
+	.icon(elixir_script);
+}
 .icon-elm {
 	.icon(elm);
 }
 .icon-error {
 	.icon(error);
+}
+.icon-eslint {
+	.icon(eslint);
 }
 .icon-favicon {
 	.icon(favicon);
@@ -243,6 +300,9 @@
 }
 .icon-heroku {
 	.icon(heroku);
+}
+.icon-hex {
+	.icon(hex);
 }
 .icon-html {
 	.icon(html);
@@ -301,8 +361,17 @@
 .icon-lua {
 	.icon(lua);
 }
+.icon-makefile {
+	.icon(makefile);
+}
 .icon-markdown {
 	.icon(markdown);
+}
+.icon-maven {
+	.icon(maven);
+}
+.icon-mdo {
+	.icon(mdo);
 }
 .icon-mustache {
 	.icon(mustache);
@@ -315,6 +384,9 @@
 }
 .icon-npm_ignored {
 	.icon(npm_ignored);
+}
+.icon-nunjucks {
+	.icon(nunjucks);
 }
 .icon-ocaml {
 	.icon(ocaml);
@@ -349,6 +421,9 @@
 .icon-react {
 	.icon(react);
 }
+.icon-rollup {
+	.icon(rollup);
+}
 .icon-ruby {
 	.icon(ruby);
 }
@@ -378,6 +453,9 @@
 }
 .icon-smarty {
 	.icon(smarty);
+}
+.icon-spring {
+	.icon(spring);
 }
 .icon-stylus {
 	.icon(stylus);
@@ -412,8 +490,20 @@
 .icon-video {
 	.icon(video);
 }
+.icon-windows {
+	.icon(windows);
+}
+.icon-word {
+	.icon(word);
+}
+.icon-xls {
+	.icon(xls);
+}
 .icon-xml {
 	.icon(xml);
+}
+.icon-yarn {
+	.icon(yarn);
 }
 .icon-yml {
 	.icon(yml);

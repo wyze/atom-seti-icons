@@ -1,5 +1,15 @@
 ## Change Log
 
+### v1.4.0 (2017-03-01)
+
+- Add a few partials for case sensative files ([95522ae](https://github.com/wyze/atom-seti-icons/commit/95522ae))
+- Add issue_template.md ([ae9a3b5](https://github.com/wyze/atom-seti-icons/commit/ae9a3b5))
+- Add override for One Dark/Light Theme's minimally sized tabs (#51) ([a8b79e2](https://github.com/wyze/atom-seti-icons/commit/a8b79e2)), closes [#39](https://github.com/wyze/atom-seti-icons/issues/39)
+- Formatting some styles ([2a34e99](https://github.com/wyze/atom-seti-icons/commit/2a34e99))
+- Meta file updates ([62e5ce5](https://github.com/wyze/atom-seti-icons/commit/62e5ce5))
+- Spacegray Dark UI (#49) ([03ccc6c](https://github.com/wyze/atom-seti-icons/commit/03ccc6c)), closes [#47](https://github.com/wyze/atom-seti-icons/issues/47)
+- Update fonts, icons and file types from seti-ui version 1.6.1 (#53) ([7faf950](https://github.com/wyze/atom-seti-icons/commit/7faf950))
+
 ### v1.3.4 (2016-09-29)
 
 - Add override for nova-atom-ui ([d60335f](https://github.com/wyze/atom-seti-icons/commit/d60335f))

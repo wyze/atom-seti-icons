@@ -17,6 +17,10 @@ atom-panel-container > atom-panel {
       // SETI-ICONS MODIFIED
       margin-right: 2px;
       // top: 7px;
+
+      .platform-win32 & {
+        top: 12px;
+      }
     }
   }
 
@@ -35,6 +39,11 @@ atom-panel-container > atom-panel {
         left: -5px;
         position: relative;
         top: 9px;
+
+        .platform-win32 & {
+          margin-top: 0;
+          top: 12px;
+        }
       }
     }
   }

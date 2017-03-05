@@ -17,9 +17,10 @@
 
 [Full Change Log](changelog.md)
 
-### v1.4.1 (2017-03-02)
+### v1.4.2 (2017-03-05)
 
-- Fix alignment issues on Windows ([e293b75](https://github.com/wyze/atom-seti-icons/commit/e293b75)), closes [#54](https://github.com/wyze/atom-seti-icons/issues/54)
+- Add override for Material UI (Windows) theme ([794862e](https://github.com/wyze/atom-seti-icons/commit/794862e)), closes [#56](https://github.com/wyze/atom-seti-icons/issues/56)
+- Quick cleanup ([bbf1e54](https://github.com/wyze/atom-seti-icons/commit/bbf1e54))
 
 ## Credits
 

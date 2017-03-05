@@ -1,9 +1,3 @@
-<a name="Unreleased"></a>
-# Unreleased (2017-03-02)
-
-
-
-
 ## Change Log
 
 ### v1.4.1 (2017-03-02)

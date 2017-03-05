@@ -60,6 +60,26 @@ atom-workspace {
       .title.icon:before {
         vertical-align: text-bottom;
       }
+
+      .platform-win32 & {
+        top: 9px;
+      }
+    }
+
+    // Sidebar
+    .entries.list-tree .file .icon::before {
+      .platform-win32 & {
+        top: 7px;
+      }
+    }
+
+    // Fuzzy Finder
+    .fuzzy-finder {
+      .icon::before {
+        .platform-win32 & {
+          top: 3px;
+        }
+      }
     }
 
     .icon-file-directory {

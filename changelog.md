@@ -1,5 +1,9 @@
 ## Change Log
 
+### v1.4.3 (2017-03-12)
+
+- Fix alignment in tab bar on Windows for Material UI ([cf25937](https://github.com/wyze/atom-seti-icons/commit/cf25937))
+
 ### v1.4.2 (2017-03-05)
 
 - Add override for Material UI (Windows) theme ([794862e](https://github.com/wyze/atom-seti-icons/commit/794862e)), closes [#56](https://github.com/wyze/atom-seti-icons/issues/56)

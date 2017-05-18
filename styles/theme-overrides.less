@@ -15,7 +15,36 @@ atom-workspace {
     }
   }
 
+  &.theme-one-dark-ui {
+    // Tabs
+    .tab-bar .tab .title {
+      &:before {
+        margin-top: 7px;
+      }
+    }
+  }
+
   // Atom Dark, Atom Light, Genesis
+  &.theme-atom-dark-ui,
+  &.theme-atom-light-ui {
+    // Tabs
+    .tab-bar .tab .title {
+      &:before {
+        position: relative;
+        margin-left: 0;
+        vertical-align: middle;
+      }
+
+      // Settings Icon
+      &.icon-tools:before,
+      &.icon-search:before {
+        margin-top: -3px;
+      }
+    }
+
+    .fuzzy-finder-override();
+  }
+
   &.theme-genesis-ui,
   &.theme-atom-dark-ui,
   &.theme-atom-light-ui {
@@ -24,6 +53,17 @@ atom-workspace {
       .file .icon {
         &::before {
           top: 7px;
+        }
+      }
+    }
+
+    // Find in Project
+    .preview-pane .path.list-nested-item {
+      .icon-book,
+      .icon-file-media,
+      .icon-file-text {
+        &:before {
+          top: 8px;
         }
       }
     }
@@ -39,8 +79,9 @@ atom-workspace {
         }
 
         // Settings Icon
-        &.icon-tools:before {
-          margin-top: -4px;
+        &.icon-tools:before,
+        &.icon-search:before {
+          margin-top: -3px;
         }
       }
     }
@@ -104,6 +145,7 @@ atom-workspace {
         float: none;
         margin-left: 0;
         margin-right: 5px !important;
+        margin-top: 0;
         position: relative;
         vertical-align: middle;
       }
@@ -119,6 +161,34 @@ atom-workspace {
     }
   }
 
+  &.theme-native-ui {
+    // Tab Bar
+    .tab-bar .tab {
+      .title:before {
+        position: relative;
+        vertical-align: middle;
+      }
+
+      .title.icon:before {
+        margin-top: -2px;
+      }
+    }
+
+    // Sidebar
+    .entries.list-tree {
+      .file .icon {
+        display: inline-block;
+        margin-top: -5px;
+
+        &::before {
+          top: 7px;
+        }
+      }
+    }
+
+    .fuzzy-finder-override();
+  }
+
   &.theme-nova-atom-ui {
     // Tab Bar
     .tab-bar .tab {
@@ -131,10 +201,12 @@ atom-workspace {
       }
 
       .title.icon:before {
-        margin-top: 0;
+        margin-top: -2px;
         vertical-align: middle;
       }
     }
+
+    .fuzzy-finder-override();
   }
 
   // Spacegray Dark
@@ -156,6 +228,17 @@ atom-workspace {
         margin-top: 10px;
         position: absolute;
       }
+    }
+
+    .fuzzy-finder-override();
+  }
+}
+
+// Common fuzzy finder override
+.fuzzy-finder-override() {
+  .fuzzy-finder {
+    .icon::before {
+      top: 4px;
     }
   }
 }

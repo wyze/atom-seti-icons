@@ -1,12 +1,9 @@
-<a name="Unreleased"></a>
-# Unreleased (2017-05-18)
-
-* Bring icons in sync with Seti UI 1.8.0 ([9980acc](https://github.com/wyze/atom-seti-icons/commit/9980acc))
-* Update theme overrides ([b06c2fa](https://github.com/wyze/atom-seti-icons/commit/b06c2fa))
-
-
-
 ## Change Log
+
+### v1.5.0 (2017-05-18)
+
+- Bring icons in sync with Seti UI 1.8.0 ([9980acc](https://github.com/wyze/atom-seti-icons/commit/9980acc))
+- Update theme overrides ([b06c2fa](https://github.com/wyze/atom-seti-icons/commit/b06c2fa))
 
 ### v1.4.3 (2017-03-12)
 

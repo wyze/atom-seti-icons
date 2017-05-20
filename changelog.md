@@ -1,132 +1,149 @@
 ## Change Log
 
-### v1.5.0 (2017-05-18)
+### [v1.5.0](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.0) (2017-05-18)
 
-- Bring icons in sync with Seti UI 1.8.0 ([9980acc](https://github.com/wyze/atom-seti-icons/commit/9980acc))
-- Update theme overrides ([b06c2fa](https://github.com/wyze/atom-seti-icons/commit/b06c2fa))
+* [[`b06c2fa6d2`](https://github.com/wyze/atom-seti-icons/commit/b06c2fa6d2)] - Update theme overrides (Neil Kistner)
+* [[`9980acc12d`](https://github.com/wyze/atom-seti-icons/commit/9980acc12d)] - Bring icons in sync with Seti UI 1.8.0 (Neil Kistner)
 
-### v1.4.3 (2017-03-12)
+### [v1.4.3](https://github.com/wyze/atom-seti-icons/releases/tag/v1.4.3) (2017-03-12)
 
-- Fix alignment in tab bar on Windows for Material UI ([cf25937](https://github.com/wyze/atom-seti-icons/commit/cf25937))
+* [[`cf25937c94`](https://github.com/wyze/atom-seti-icons/commit/cf25937c94)] - Fix alignment in tab bar on Windows for Material UI (Neil Kistner)
 
-### v1.4.2 (2017-03-05)
+### [v1.4.2](https://github.com/wyze/atom-seti-icons/releases/tag/v1.4.2) (2017-03-05)
 
-- Add override for Material UI (Windows) theme ([794862e](https://github.com/wyze/atom-seti-icons/commit/794862e)), closes [#56](https://github.com/wyze/atom-seti-icons/issues/56)
-- Quick cleanup ([bbf1e54](https://github.com/wyze/atom-seti-icons/commit/bbf1e54))
+* [[`bbf1e54fbe`](https://github.com/wyze/atom-seti-icons/commit/bbf1e54fbe)] - Quick cleanup (Neil Kistner)
+* [[`794862e729`](https://github.com/wyze/atom-seti-icons/commit/794862e729)] - Add override for Material UI (Windows) theme (Neil Kistner)
 
-### v1.4.1 (2017-03-02)
+### [v1.4.1](https://github.com/wyze/atom-seti-icons/releases/tag/v1.4.1) (2017-03-02)
 
-- Fix alignment issues on Windows ([e293b75](https://github.com/wyze/atom-seti-icons/commit/e293b75)), closes [#54](https://github.com/wyze/atom-seti-icons/issues/54)
+* [[`e293b753d1`](https://github.com/wyze/atom-seti-icons/commit/e293b753d1)] - Fix alignment issues on Windows (Neil Kistner)
 
-### v1.4.0 (2017-03-01)
+### [v1.4.0](https://github.com/wyze/atom-seti-icons/releases/tag/v1.4.0) (2017-03-01)
 
-- Add a few partials for case sensative files ([95522ae](https://github.com/wyze/atom-seti-icons/commit/95522ae))
-- Add issue_template.md ([ae9a3b5](https://github.com/wyze/atom-seti-icons/commit/ae9a3b5))
-- Add override for One Dark/Light Theme's minimally sized tabs (#51) ([a8b79e2](https://github.com/wyze/atom-seti-icons/commit/a8b79e2)), closes [#39](https://github.com/wyze/atom-seti-icons/issues/39)
-- Formatting some styles ([2a34e99](https://github.com/wyze/atom-seti-icons/commit/2a34e99))
-- Meta file updates ([62e5ce5](https://github.com/wyze/atom-seti-icons/commit/62e5ce5))
-- Spacegray Dark UI (#49) ([03ccc6c](https://github.com/wyze/atom-seti-icons/commit/03ccc6c)), closes [#47](https://github.com/wyze/atom-seti-icons/issues/47)
-- Update fonts, icons and file types from seti-ui version 1.6.1 (#53) ([7faf950](https://github.com/wyze/atom-seti-icons/commit/7faf950))
+* [[`95522aeac5`](https://github.com/wyze/atom-seti-icons/commit/95522aeac5)] - Add a few partials for case sensative files (Neil Kistner)
+* [[`62e5ce5a18`](https://github.com/wyze/atom-seti-icons/commit/62e5ce5a18)] - Meta file updates (Neil Kistner)
+* [[`7faf950959`](https://github.com/wyze/atom-seti-icons/commit/7faf950959)] - Update fonts, icons and file types from seti-ui version 1.6.1 (#53) (Adrian Wędzel)
+* [[`a8b79e2e83`](https://github.com/wyze/atom-seti-icons/commit/a8b79e2e83)] - Add override for One Dark/Light Theme's minimally sized tabs (#51) (Fabrício Matté)
+* [[`ae9a3b53a4`](https://github.com/wyze/atom-seti-icons/commit/ae9a3b53a4)] - Add issue_template.md (Neil Kistner)
+* [[`2a34e99f3d`](https://github.com/wyze/atom-seti-icons/commit/2a34e99f3d)] - Formatting some styles (Neil Kistner)
+* [[`03ccc6c8f1`](https://github.com/wyze/atom-seti-icons/commit/03ccc6c8f1)] - Spacegray Dark UI (#49) (Uros)
 
-### v1.3.4 (2016-09-29)
+### [v1.3.4](https://github.com/wyze/atom-seti-icons/releases/tag/v1.3.4) (2016-09-29)
 
-- Add override for nova-atom-ui ([d60335f](https://github.com/wyze/atom-seti-icons/commit/d60335f))
-- Adjust Settings icon for Genesis theme ([60e2e03](https://github.com/wyze/atom-seti-icons/commit/60e2e03)), closes [#41](https://github.com/wyze/atom-seti-icons/issues/41)
+* [[`60e2e034f0`](https://github.com/wyze/atom-seti-icons/commit/60e2e034f0)] - Adjust Settings icon for Genesis theme (Neil Kistner)
+* [[`d60335f35b`](https://github.com/wyze/atom-seti-icons/commit/d60335f35b)] - Add override for nova-atom-ui (Jonas Strømsodd)
 
-### v1.3.3 (2016-09-03)
-- Add override for Genesis theme ([484d4eb](https://github.com/wyze/atom-seti-icons/commit/484d4eb)), closes [#36](https://github.com/wyze/atom-seti-icons/issues/36)
+### [v1.3.3](https://github.com/wyze/atom-seti-icons/releases/tag/v1.3.3) (2016-09-03)
 
-### v1.3.2 (07/05/2016)
-- Add override in sidebar for Atom Dark/Light ([d9f18ec](https://github.com/wyze/atom-seti-icons/commit/d9f18ec)), closes [#33](https://github.com/wyze/atom-seti-icons/issues/33)
+* [[`484d4ebd9b`](https://github.com/wyze/atom-seti-icons/commit/484d4ebd9b)] - Add override for Genesis theme (Neil Kistner)
 
-### v1.3.1 (06/24/2016)
-- Fix `No Color` setting, again ([4251edb](https://github.com/wyze/atom-seti-icons/commit/4251edb)), closes [#32](https://github.com/wyze/atom-seti-icons/issues/32)
+### [v1.3.2](https://github.com/wyze/atom-seti-icons/releases/tag/v1.3.2) (2016-07-05)
 
-### v1.3.0 (06/23/2016)
-- Add changes from Seti UI v1.3.2 ([d60bc1c](https://github.com/wyze/atom-seti-icons/commit/d60bc1c)), closes [#29](https://github.com/wyze/atom-seti-icons/issues/29)
+* [[`d9f18ec091`](https://github.com/wyze/atom-seti-icons/commit/d9f18ec091)] - Add override in sidebar for Atom Dark/Light (Neil Kistner)
 
-### v1.2.2 (06/18/2016)
-- Add theme override for Seti ([#28](https://github.com/wyze/atom-seti-icons/issues/28) via [b6c41af](https://github.com/wyze/atom-seti-icons/commit/b6c41af9bed2590227f0828daa394a203c0c52ca))
+### [v1.3.1](https://github.com/wyze/atom-seti-icons/releases/tag/v1.3.1) (2016-06-24)
 
-### v1.2.1 (05/31/2016)
-- Fix `No Color` setting, again ([#30](https://github.com/wyze/atom-seti-icons/issues/30) via [245ec03](https://github.com/wyze/atom-seti-icons/commit/245ec03d239738cd5ce9a22308576a7113fc7d57))
+* [[`4251edb077`](https://github.com/wyze/atom-seti-icons/commit/4251edb077)] - Fix `No Color` setting, again (Neil Kistner)
 
-### v1.2.0 (05/29/2016)
-- Add changes from seti-ui v1.2.3 ([#24](https://github.com/wyze/atom-seti-icons/issues/24) via [cb8ba81](https://github.com/wyze/atom-seti-icons/commit/cb8ba819ecd9c4b9cf458e0576b0259453f5468a))
-  - New Icons
-    - Audio files (.mp3, .oog)
-    - Gradle (.gradle)
-    - Ionic (ionic.project, ionic.config.json)
-    - Terraform (.tf, .tf.json)
-  - Updated Icons
-    - Audio files (.wav)
-- Update objective c file icons ([#27](https://github.com/wyze/atom-seti-icons/pull/27) via [6134bbc](https://github.com/wyze/atom-seti-icons/commit/6134bbc2edfbeba68aece38dc8e122b9da82ef70))
-- Fix project icon to match seti-ui ([#25](https://github.com/wyze/atom-seti-icons/issues/25) via [711215f](https://github.com/wyze/atom-seti-icons/commit/711215fdf3ca5c570c36c992448230cfe908eefa))
+### [v1.3.0](https://github.com/wyze/atom-seti-icons/releases/tag/v1.3.0) (2016-06-23)
 
-### v1.1.0 (05/19/2016)
-- Add Twig icon ([#18](https://github.com/wyze/atom-seti-icons/issues/18) via [73ee067](https://github.com/wyze/atom-seti-icons/commit/73ee0679421a8553626a010f2b25b952ffeae774))
-- Add Elm icon ([#15](https://github.com/wyze/atom-seti-icons/issues/15) via [0ac7401](https://github.com/wyze/atom-seti-icons/commit/0ac74018bd0627f12db135107c3367a8f5a29b17))
-- Fix icon spacing with One Dark in preview pane ([e30cb86]())
-- Remove conflicting theme overrides ([#21](https://github.com/wyze/atom-seti-icons/issues/21) via [543ddc1](https://github.com/wyze/atom-seti-icons/commit/543ddc193c537911b30ce5ce8a6d512253f575df))
+* [[`d60bc1cd61`](https://github.com/wyze/atom-seti-icons/commit/d60bc1cd61)] - Add changes from Seti UI v1.3.2 (Neil Kistner)
 
-### v1.0.1 (05/17/2016)
-- Adjust theme override spacing for `atom-material-ui` ([83e870c](https://github.com/wyze/atom-seti-icons/commit/83e870cf58473f53db16cc44a3080d75603e3b2b), [a65aa38](https://github.com/wyze/atom-seti-icons/commit/a65aa38c424ac4b3102ec7eb6a5e141eaa740aa9))
+### [v1.2.2](https://github.com/wyze/atom-seti-icons/releases/tag/v1.2.2) (2016-06-18)
 
-### v1.0.0 (05/14/2016)
-- Update with icons from Seti UI v1.1.2 ([d1f70ab](https://github.com/wyze/atom-seti-icons/commit/d1f70abce06b5c9e78e5a35d155865936642c2d4))
-- Rename files for aesthetics ([b8fea42](https://github.com/wyze/atom-seti-icons/commit/b8fea4211ee1307e46d526dde3963af0e41fb30a))
-- Adjustments for base styles ([5f2d748](https://github.com/wyze/atom-seti-icons/commit/5f2d7487571ae7ae3341dc72e613dde77bfe8d6b))
-- Remove CoffeeScript and switch to Babel ([2c02f0f](https://github.com/wyze/atom-seti-icons/commit/2c02f0f8195626abf7fc5f8ca165a093ffd23d89))
-  - Relocated code to lib/ folder.
-  - Moved configuration schema to package.json.
-  - Removed `Icons Plus` setting.
-- Fix `No Color` setting ([1de88b1](https://github.com/wyze/atom-seti-icons/commit/1de88b144c2f1881ee92d43df6056bddf1a4b171))
-- Update readme ([b78051f](https://github.com/wyze/atom-seti-icons/commit/b78051f065479aa506f9d063c8560a34358e76ab))
+* [[`b6c41af9be`](https://github.com/wyze/atom-seti-icons/commit/b6c41af9be)] - Add theme override for Seti (Neil Kistner)
 
-### v0.4.5 (09/03/2015)
-- adjust margin for icons with Atom Material theme ([16c5eed](https://github.com/wyze/atom-seti-icons/commit/16c5eedd3691c27f07f056b00afba72d755c4261))
-- Add icons for .h & .hpp ([04ff09f](https://github.com/wyze/atom-seti-icons/commit/04ff09fc70ab563910b7cdaedc68e4c72da98e9b))
+### [v1.2.1](https://github.com/wyze/atom-seti-icons/releases/tag/v1.2.1) (2016-05-31)
 
-### v0.4.4 (08/25/2015)
-- fix positioning of folder icons with extensions; fixes [#8](https://github.com/wyze/atom-seti-icons/pull/8) ([04c721b](https://github.com/wyze/atom-seti-icons/commit/04c721ba8955d40d42eb490c14ec90a3ef2ce786))
-- adjust override for icons with one dark/light themes ([32c037f](https://github.com/wyze/atom-seti-icons/commit/32c037fa94df3abf9af5f02514136f1690dc4bfe))
-- revert pr [#7](https://github.com/wyze/atom-seti-icons/pull/7); fixes [#10](https://github.com/wyze/atom-seti-icons/pull/10) ([0af9626](https://github.com/wyze/atom-seti-icons/commit/0af96267e9c1ad8112fefbef2af67460d1c159f5))
+* [[`245ec03d23`](https://github.com/wyze/atom-seti-icons/commit/245ec03d23)] - Fix `No Color` setting, again (Neil Kistner)
 
-### v0.4.3 (08/24/2015)
-- add overrides for atom material theme; fixes [#9](https://github.com/wyze/atom-seti-icons/pull/9) ([7b64414](https://github.com/wyze/atom-seti-icons/commit/7b64414d42431fe132515ef000d9950c2aec6714))
+### [v1.2.0](https://github.com/wyze/atom-seti-icons/releases/tag/v1.2.0) (2016-05-29)
 
-### v0.4.2 (08/17/2015)
-- include changes to icons for icons plus config ([7c8bcf1](https://github.com/wyze/atom-seti-icons/commit/7c8bcf1dcf79b837887b274594a9b3b24488980c))
-- remove comments ([911eedc](https://github.com/wyze/atom-seti-icons/commit/911eedca717e9885d62a9eb594483c0a5c44891c))
+* [[`cb8ba819ec`](https://github.com/wyze/atom-seti-icons/commit/cb8ba819ec)] - Add changes from seti-ui v1.2.3 (Neil Kistner)
+* [[`6134bbc2ed`](https://github.com/wyze/atom-seti-icons/commit/6134bbc2ed)] - Update objective c file icons (#27) (Shuyang Shi)
+* [[`711215fdf3`](https://github.com/wyze/atom-seti-icons/commit/711215fdf3)] - Fix project icon to match seti-ui (Neil Kistner)
 
-### v0.4.1 (08/16/2015)
-- update readme with settings information ([4da6dfd](https://github.com/wyze/atom-seti-icons/commit/4da6dfd885bf8d9c747737a43a9fc1f4fb306708))
-- correct the config setting keys ([3980f05](https://github.com/wyze/atom-seti-icons/commit/3980f05fb56a3093a201bc9548e34a5f68e9edd2))
+### [v1.1.0](https://github.com/wyze/atom-seti-icons/releases/tag/v1.1.0) (2016-05-19)
 
-### v0.4.0 (08/16/2015)
-- add icons plus config option ([90d7610](https://github.com/wyze/atom-seti-icons/commit/90d76101c688e648d2daf69940907fbbf17b7005))
-- add no color config option ([be4aebd](https://github.com/wyze/atom-seti-icons/commit/be4aebd7490ac2ab1668cc4feea7a514b957fde9))
-- quick cleanup ([f71601c](https://github.com/wyze/atom-seti-icons/commit/f71601c97887f2da4906d864282ca41be789996c))
-- fixed wrong text with icon positioning in tabs ([e54926f](https://github.com/wyze/atom-seti-icons/commit/e54926fa9ce9bce9fbfd623efc9b4fe8d1413a46))
+* [[`73ee067942`](https://github.com/wyze/atom-seti-icons/commit/73ee067942)] - Add Twig icon (Neil Kistner)
+* [[`0ac74018bd`](https://github.com/wyze/atom-seti-icons/commit/0ac74018bd)] - Add Elm icon (Neil Kistner)
+* [[`e30cb862b5`](https://github.com/wyze/atom-seti-icons/commit/e30cb862b5)] - Fix icon spacing with One Dark in preview pane (Neil Kistner)
+* [[`543ddc193c`](https://github.com/wyze/atom-seti-icons/commit/543ddc193c)] - Remove conflicting theme overrides (Neil Kistner)
 
-### v0.3.1 (07/07/2015)
-- added .htm, .php4, .php5 ([5789a45](https://github.com/wyze/atom-seti-icons/commit/5789a45a798c293344a851430ccc8b1ea0e64074))
+### [v1.0.1](https://github.com/wyze/atom-seti-icons/releases/tag/v1.0.1) (2016-05-17)
 
-### v0.3.0 (06/26/2015)
-- extracted updated fonts from zip ([ab7e506](https://github.com/wyze/atom-seti-icons/commit/ab7e506fae3c31801810a52be4e46e7f047888a9))
-- Updated Colors for new Icons ([2552083](https://github.com/wyze/atom-seti-icons/commit/2552083bdca375dddd85d3b4f37c6c479fb5a574))
-- Update ([b5b1711](https://github.com/wyze/atom-seti-icons/commit/b5b17115c7e39428a4da2ecc42260887dc03d9b6))
-- Reverted version ([bad46cf](https://github.com/wyze/atom-seti-icons/commit/bad46cf787d89a8cc1670135ac05eca2b828a123))
-- Added C, CPP and Swift Icons and did some cleanup ([1aa88a3](https://github.com/wyze/atom-seti-icons/commit/1aa88a3f745e1f549af34d675aec92ddff7162ac))
+* [[`a65aa38c42`](https://github.com/wyze/atom-seti-icons/commit/a65aa38c42)] - Fix spacing in `atom-material-ui` for other non-custom icons (Neil Kistner)
+* [[`83e870cf58`](https://github.com/wyze/atom-seti-icons/commit/83e870cf58)] - Adjust theme override for `atom-material-ui` (Neil Kistner)
 
-### v0.2.0 (06/24/2015)
-- added fuzzy finder icons ([0dd6f12](https://github.com/wyze/atom-seti-icons/commit/0dd6f123b254fd14720f9b5e56825cd41b1f6e38))
-- added ui-variables.less; fixed [#1](https://github.com/wyze/atom-seti-icons/pull/1) ([8f906c4](https://github.com/wyze/atom-seti-icons/commit/8f906c414a1757c344839264e130bd42abea07f0))
+### [v1.0.0](https://github.com/wyze/atom-seti-icons/releases/tag/v1.0.0) (2016-05-14)
 
-### v0.1.1 (06/23/2015)
-- added theme overrides for one dark/light ([64d44cf](https://github.com/wyze/atom-seti-icons/commit/64d44cfc740e5696cc06c1fb66a5d5b8f2bc9f7b))
-- updated icon-tree mixin ([7cb6f6f](https://github.com/wyze/atom-seti-icons/commit/7cb6f6f9fa74f7c313c47fee8bb2f70649d0e992))
-- updated repo icon positioning ([ab3ebbd](https://github.com/wyze/atom-seti-icons/commit/ab3ebbd8faf9bbd65ac60767d5ad5213ec61f029))
+* [[`b78051f065`](https://github.com/wyze/atom-seti-icons/commit/b78051f065)] - Update readme (Neil Kistner)
+* [[`1de88b144c`](https://github.com/wyze/atom-seti-icons/commit/1de88b144c)] - Fix `No Color` setting (Neil Kistner)
+* [[`2c02f0f819`](https://github.com/wyze/atom-seti-icons/commit/2c02f0f819)] - Remove CoffeeScript and switch to Babel (Neil Kistner)
+* [[`5f2d748757`](https://github.com/wyze/atom-seti-icons/commit/5f2d748757)] - Adjustments for base styles (Neil Kistner)
+* [[`b8fea4211e`](https://github.com/wyze/atom-seti-icons/commit/b8fea4211e)] - Rename files for aesthetics (Neil Kistner)
+* [[`d1f70abce0`](https://github.com/wyze/atom-seti-icons/commit/d1f70abce0)] - Update with icons from Seti UI v1.1.2 (Neil Kistner)
 
-### v0.1.0 (06/22/2015)
-- initial commit ([3ed142c](https://github.com/wyze/atom-seti-icons/commit/3ed142c5f71f9e7806a933d6e940316f5a2f47e7))
+### [v0.4.5](https://github.com/wyze/atom-seti-icons/releases/tag/v0.4.5) (2015-09-03)
+
+* [[`16c5eedd36`](https://github.com/wyze/atom-seti-icons/commit/16c5eedd36)] - adjust margin for icons with Atom Material theme (Neil Kistner)
+* [[`9f7cead85b`](https://github.com/wyze/atom-seti-icons/commit/9f7cead85b)] - Merge pull request #11 from plieb/master (Neil Kistner)
+* [[`04ff09fc70`](https://github.com/wyze/atom-seti-icons/commit/04ff09fc70)] - Add icons for .h & .hpp (plieb)
+* [[`f41df2ada2`](https://github.com/wyze/atom-seti-icons/commit/f41df2ada2)] - update changelog (Neil Kistner)
+* [[`953f0501db`](https://github.com/wyze/atom-seti-icons/commit/953f0501db)] - add npm script for changelog generation (Neil Kistner)
+
+### [v0.4.4](https://github.com/wyze/atom-seti-icons/releases/tag/v0.4.4) (2015-08-25)
+
+* [[`04c721ba89`](https://github.com/wyze/atom-seti-icons/commit/04c721ba89)] - fix positioning of folder icons with extensions; fixes #8 (Neil Kistner)
+* [[`32c037fa94`](https://github.com/wyze/atom-seti-icons/commit/32c037fa94)] - adjust override for icons with one dark/light themes (Neil Kistner)
+* [[`0af96267e9`](https://github.com/wyze/atom-seti-icons/commit/0af96267e9)] - ***Revert*** "pr #7; fixes #10" (Neil Kistner)
+
+### [v0.4.3](https://github.com/wyze/atom-seti-icons/releases/tag/v0.4.3) (2015-08-24)
+
+* [[`7b64414d42`](https://github.com/wyze/atom-seti-icons/commit/7b64414d42)] - add overrides for atom material theme; fixes #9 (Neil Kistner)
+* [[`76a3be2061`](https://github.com/wyze/atom-seti-icons/commit/76a3be2061)] - Merge pull request #7 from MaxGraey/master (Neil Kistner)
+
+### [v0.4.2](https://github.com/wyze/atom-seti-icons/releases/tag/v0.4.2) (2015-08-17)
+
+* [[`7c8bcf1dcf`](https://github.com/wyze/atom-seti-icons/commit/7c8bcf1dcf)] - include changes to icons for icons plus config (Neil Kistner)
+* [[`911eedca71`](https://github.com/wyze/atom-seti-icons/commit/911eedca71)] - remove comments (Max Graey)
+
+### [v0.4.1](https://github.com/wyze/atom-seti-icons/releases/tag/v0.4.1) (2015-08-16)
+
+* [[`4da6dfd885`](https://github.com/wyze/atom-seti-icons/commit/4da6dfd885)] - update readme with settings information (Neil Kistner)
+* [[`3980f05fb5`](https://github.com/wyze/atom-seti-icons/commit/3980f05fb5)] - correct the config setting keys (Neil Kistner)
+
+### [v0.4.0](https://github.com/wyze/atom-seti-icons/releases/tag/v0.4.0) (2015-08-16)
+
+* [[`90d76101c6`](https://github.com/wyze/atom-seti-icons/commit/90d76101c6)] - add icons plus config option (Neil Kistner)
+* [[`be4aebd749`](https://github.com/wyze/atom-seti-icons/commit/be4aebd749)] - add no color config option (Neil Kistner)
+* [[`f71601c978`](https://github.com/wyze/atom-seti-icons/commit/f71601c978)] - quick cleanup (Neil Kistner)
+* [[`e54926fa9c`](https://github.com/wyze/atom-seti-icons/commit/e54926fa9c)] - fixed wrong text with icon positioning in tabs (Max Graey)
+
+### [v0.3.1](https://github.com/wyze/atom-seti-icons/releases/tag/v0.3.1) (2015-07-07)
+
+* [[`5789a45a79`](https://github.com/wyze/atom-seti-icons/commit/5789a45a79)] - added .htm, .php4, .php5 (Neil Kistner)
+
+### [v0.3.0](https://github.com/wyze/atom-seti-icons/releases/tag/v0.3.0) (2015-06-26)
+
+* [[`ab7e506fae`](https://github.com/wyze/atom-seti-icons/commit/ab7e506fae)] - extracted updated fonts from zip (Neil Kistner)
+* [[`35f2b740fd`](https://github.com/wyze/atom-seti-icons/commit/35f2b740fd)] - Merge pull request #2 from Arqu/master (Neil Kistner)
+* [[`2552083bdc`](https://github.com/wyze/atom-seti-icons/commit/2552083bdc)] - Updated Colors for new Icons (Asmir Avdicevic)
+* [[`b5b17115c7`](https://github.com/wyze/atom-seti-icons/commit/b5b17115c7)] - Update (Asmir Avdicevic)
+* [[`bad46cf787`](https://github.com/wyze/atom-seti-icons/commit/bad46cf787)] - Reverted version (Asmir Avdicevic)
+* [[`1aa88a3f74`](https://github.com/wyze/atom-seti-icons/commit/1aa88a3f74)] - Added C, CPP and Swift Icons and did some cleanup (Asmir Avdicevic)
+
+### [v0.2.0](https://github.com/wyze/atom-seti-icons/releases/tag/v0.2.0) (2015-06-24)
+
+* [[`0dd6f123b2`](https://github.com/wyze/atom-seti-icons/commit/0dd6f123b2)] - added fuzzy finder icons (Neil Kistner)
+* [[`8f906c414a`](https://github.com/wyze/atom-seti-icons/commit/8f906c414a)] - added ui-variables.less; fixed #1 (Neil Kistner)
+
+### [v0.1.1](https://github.com/wyze/atom-seti-icons/releases/tag/v0.1.1) (2015-06-23)
+
+* [[`64d44cfc74`](https://github.com/wyze/atom-seti-icons/commit/64d44cfc74)] - added theme overrides for one dark/light (Neil Kistner)
+* [[`7cb6f6f9fa`](https://github.com/wyze/atom-seti-icons/commit/7cb6f6f9fa)] - updated icon-tree mixin (Neil Kistner)
+* [[`ab3ebbd8fa`](https://github.com/wyze/atom-seti-icons/commit/ab3ebbd8fa)] - updated repo icon positioning (Neil Kistner)
+
+### [v0.1.0](https://github.com/wyze/atom-seti-icons/releases/tag/v0.1.0) (2015-06-22)
+
+* [[`3ed142c5f7`](https://github.com/wyze/atom-seti-icons/commit/3ed142c5f7)] - initial commit (Neil Kistner)

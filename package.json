@@ -11,10 +11,10 @@
   },
   "main": "lib/index",
   "scripts": {
-    "changelog": "conventional-changelog -i changelog.md -s -u"
+    "version": "write-changelog"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^1.2.0"
+    "write-changelog": "^1.1.0"
   },
   "keywords": [
     "seti",

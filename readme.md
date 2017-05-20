@@ -15,12 +15,12 @@
 
 ## Change Log
 
-[Full Change Log](changelog.md)
+> [Full Change Log](changelog.md)
 
-### v1.5.0 (2017-05-18)
+### [v1.5.0](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.0) (2017-05-18)
 
-- Bring icons in sync with Seti UI 1.8.0 ([9980acc](https://github.com/wyze/atom-seti-icons/commit/9980acc))
-- Update theme overrides ([b06c2fa](https://github.com/wyze/atom-seti-icons/commit/b06c2fa))
+* [[`b06c2fa6d2`](https://github.com/wyze/atom-seti-icons/commit/b06c2fa6d2)] - Update theme overrides (Neil Kistner)
+* [[`9980acc12d`](https://github.com/wyze/atom-seti-icons/commit/9980acc12d)] - Bring icons in sync with Seti UI 1.8.0 (Neil Kistner)
 
 ## Credits
 

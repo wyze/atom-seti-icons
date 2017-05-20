@@ -17,14 +17,11 @@
 
 > [Full Change Log](changelog.md)
 
-### [v1.5.0](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.0) (2017-05-18)
+### [v1.5.1](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.1) (2017-05-20)
 
-* [[`b06c2fa6d2`](https://github.com/wyze/atom-seti-icons/commit/b06c2fa6d2)] - Update theme overrides (Neil Kistner)
-* [[`9980acc12d`](https://github.com/wyze/atom-seti-icons/commit/9980acc12d)] - Bring icons in sync with Seti UI 1.8.0 (Neil Kistner)
-
-## Credits
-
-Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.
+* [[`bc6dde4824`](https://github.com/wyze/atom-seti-icons/commit/bc6dde4824)] - Rewrite changelog and update release script (Neil Kistner)
+* [[`0be4420406`](https://github.com/wyze/atom-seti-icons/commit/0be4420406)] - Fix icon alignment in TreeView and Preview on Windows (#66) (Robert Lüdke)
+* [[`d4e1761f87`](https://github.com/wyze/atom-seti-icons/commit/d4e1761f87)] - Fix changelog (Neil Kistner)
 
 ## License
 

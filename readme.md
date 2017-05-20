@@ -13,6 +13,10 @@
 |---|---|---|---|
 | No Color | Boolean | false | Enables/disable color icons. |
 
+## Credits
+
+Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti UI theme.
+
 ## Change Log
 
 > [Full Change Log](changelog.md)

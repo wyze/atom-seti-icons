@@ -1,16 +1,10 @@
 .tab-bar .tab {
-
   // SET ICON SIZE
   .title::before {
+    float: left;
     font-size: 22px;
+    margin-right: 1px;
     line-height: 17px;
-
-    // SETI-ICONS MODIFIED
-    // float: left;
-    // margin-right: 1px;
-    margin-left: -22px;
-    margin-top: 10px;
-    position: absolute;
 
     .platform-win32 & {
       margin-top: 18px;
@@ -39,6 +33,4 @@
   &[data-type='TextEditor'] .title:not([data-name]) {
     .icon('new-file', @green);
   }
-
-
 }

@@ -3,116 +3,99 @@ atom-workspace {
   &.theme-genesis-ui,
   &.theme-one-dark-ui,
   &.theme-one-light-ui {
-    // Find in Project
-    .preview-pane .path.list-nested-item {
-      .icon-book,
-      .icon-file-media,
-      .icon-file-text {
-        &:before {
-          top: 0;
+    .side-bar-override(-1px);
+    .tab-bar-override();
+  }
+
+  // One Dark, One Light
+  &.theme-one-dark-ui,
+  &.theme-one-light-ui {
+    .fuzzy-finder .icon {
+      &::before {
+        .platform-win32 & {
+          top: 1px;
         }
       }
     }
   }
 
-  &.theme-one-dark-ui {
-    // Tabs
-    .tab-bar .tab .title {
-      &:before {
-        margin-top: 7px;
+  // Atom Dark, Atom Light
+  &.theme-atom-dark-ui,
+  &.theme-atom-light-ui {
+    .tab-bar-override(5px);
+    .project-find-override(0);
+
+    // Sidebar
+    .entries.list-tree .file .icon {
+      &::before {
+        .platform-win32 & {
+          top: 4px;
+        }
+      }
+    }
+  }
+
+  // Genesis
+  &.theme-genesis-ui {
+    // Sidebar
+    .entries.list-tree .file .icon {
+      &::before {
+        .platform-win32 & {
+          top: 0;
+        }
+      }
+    }
+
+    .fuzzy-finder .icon {
+      &::before {
+        .platform-win32 & {
+          top: 4px;
+        }
       }
     }
   }
 
   // Atom Dark, Atom Light, Genesis
-  &.theme-atom-dark-ui,
-  &.theme-atom-light-ui {
-    // Tabs
-    .tab-bar .tab .title {
-      &:before {
-        position: relative;
-        margin-left: 0;
-        vertical-align: middle;
-      }
-
-      // Settings Icon
-      &.icon-tools:before,
-      &.icon-search:before {
-        margin-top: -3px;
-      }
-    }
-
-    .fuzzy-finder-override();
-  }
-
   &.theme-genesis-ui,
   &.theme-atom-dark-ui,
   &.theme-atom-light-ui {
     // Sidebar
-    .entries.list-tree {
-      .file .icon {
-        &::before {
-          top: 7px;
-        }
-      }
+    .entries.list-tree .file .icon {
+      display: inline-block;
+      margin-top: -5px;
     }
 
-    // Find in Project
-    .preview-pane .path.list-nested-item {
-      .icon-book,
-      .icon-file-media,
-      .icon-file-text {
-        &:before {
-          top: 8px;
-        }
-      }
-    }
-  }
-
-  &.theme-genesis-ui {
-    // Tab Bar
-    .tab-bar .tab {
-      .title {
-        &:before {
-          position: relative;
-          vertical-align: middle;
-        }
-
-        // Settings Icon
-        &.icon-tools:before,
-        &.icon-search:before {
-          margin-top: -3px;
-        }
-      }
-    }
+    .fuzzy-finder-override();
+    .project-find-override();
   }
 
   // Atom Material
   &.theme-atom-material-ui {
     // Tab Bar
-    .tab-bar .tab {
-      .title:before {
-        margin-left: 0;
-        margin-right: 5px !important;
-        position: relative;
-        vertical-align: middle;
-      }
-
-      .title.icon:before {
-        vertical-align: text-bottom;
+    .tab-bar .tab .title {
+      &::before {
+        .amu-compact-tab-bar & {
+          margin-top: 13px;
+        }
       }
     }
 
+    .tab-bar-override(17px);
+
     // Sidebar
-    .entries.list-tree .file .icon::before {
-      .platform-win32 & {
-        top: 7px;
+    .entries.list-tree .file .icon {
+      &::before {
+        .platform-win32 & {
+          top: 4px;
+        }
       }
     }
 
     // Fuzzy Finder
-    .fuzzy-finder {
-      .icon::before {
+    .fuzzy-finder .icon {
+      &::before {
+        top: 4px;
+
         .platform-win32 & {
           top: 3px;
         }
@@ -120,121 +103,119 @@ atom-workspace {
     }
 
     .icon-file-directory {
-      &:before {
+      &::before {
         margin-right: 10px !important;
       }
     }
 
     .icon-file-text,
     .icon-book {
-      &:before {
+      &::before {
         top: 6px;
       }
     }
   }
 
-  // Seti
-  &.theme-seti-ui {
-    // Tab Bar
-    .tab-bar .tab {
-      .title:before {
-        float: none;
-        margin-left: 0;
-        margin-right: 5px !important;
-        margin-top: 0;
-        position: relative;
-        vertical-align: middle;
-      }
-
-      .title.icon:before {
-        margin-top: 0;
-        vertical-align: middle;
-      }
-    }
-
-    .name.icon.icon-repo:before {
-      top: -3px;
-    }
-  }
-
   &.theme-native-ui {
-    // Tab Bar
-    .tab-bar .tab {
-      .title:before {
-        position: relative;
-        vertical-align: middle;
-      }
-
-      .title.icon:before {
-        margin-top: -2px;
-      }
-    }
-
     // Sidebar
-    .entries.list-tree {
-      .file .icon {
-        display: inline-block;
-        margin-top: -5px;
+    .entries.list-tree .file .icon {
+      display: inline-block;
+      margin-top: -5px;
 
-        &::before {
-          top: 7px;
+      &::before {
+        .platform-win32 {
+          top: -1px;
         }
       }
     }
 
+    .side-bar-override(0);
+    .tab-bar-override(4px);
     .fuzzy-finder-override();
   }
 
+  // Nova Atom
   &.theme-nova-atom-ui {
-    // Tab Bar
-    .tab-bar .tab {
-      .title:before {
-        float: none;
-        margin-left: -0;
-        margin-right: 10px !important;
-        position: relative;
-        vertical-align: middle;
-      }
-
-      .title.icon:before {
-        margin-top: -2px;
-        vertical-align: middle;
+    // Sidebar
+    .entries.list-tree .file {
+      &::after {
+        height: 25px !important;
       }
     }
 
+    .side-bar-override(-2px);
+    .tab-bar-override();
     .fuzzy-finder-override();
+  }
+
+  // Seti
+  &.theme-seti-ui {
+    // Tab Bar
+    .tab-bar .tab .title {
+      &::before {
+        .platform-win32 & {
+          margin-top: -1px;
+        }
+      }
+    }
+
+    // Sidebar
+    .entries.list-tree .file .icon {
+      vertical-align: middle;
+
+      .platform-win32 & {
+        display: inline-block;
+        margin-top: 2px;
+      }
+    }
   }
 
   // Spacegray Dark
   &.theme-spacegray-dark-ui {
-    // Sidebar
-    .entries.list-tree .file .icon::before {
-      vertical-align: middle;
-      top: 0;
-    }
-
-    // Tab Bar
-    .tab-bar .tab {
-      margin-left: 28px;
-
-      .title::before {
-        font-size: 22px;
-        line-height: 9px;
-        margin-left: -26px;
-        margin-top: 10px;
-        position: absolute;
-      }
-    }
-
+    .side-bar-override(0);
+    .tab-bar-override();
     .fuzzy-finder-override();
+    .project-find-override();
+  }
+}
+
+// Common sidebar override
+.side-bar-override(@top: 4px) {
+  .entries.list-tree .file .icon {
+    &::before {
+      top: @top;
+      vertical-align: middle;
+    }
+  }
+}
+
+// Common tab bar override
+.tab-bar-override(@margin: 7px) {
+  .tab-bar .tab .title {
+    &::before {
+      margin-top: @margin;
+    }
   }
 }
 
 // Common fuzzy finder override
-.fuzzy-finder-override() {
-  .fuzzy-finder {
-    .icon::before {
-      top: 4px;
+.fuzzy-finder-override(@top: 4px) {
+  .fuzzy-finder .icon {
+    &::before {
+      top: @top;
+    }
+  }
+}
+
+// Common project find override
+.project-find-override(@top: 8px) {
+  .preview-pane .path.list-nested-item {
+    .icon-book,
+    .icon-file-media,
+    .icon-file-text {
+      &::before {
+        top: @top;
+      }
     }
   }
 }

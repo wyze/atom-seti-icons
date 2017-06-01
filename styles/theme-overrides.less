@@ -177,6 +177,21 @@ atom-workspace {
     .fuzzy-finder-override();
     .project-find-override();
   }
+
+  // Nucleus Dark
+  &.theme-nucleus-dark-ui {
+    .tab-bar-override(10px);
+    .fuzzy-finder-override(3px);
+
+    // Sidebar
+    .entries.list-tree .file .icon {
+      &::before {
+        .platform-win32 & {
+          top: 4px;
+        }
+      }
+    }
+  }
 }
 
 // Common sidebar override

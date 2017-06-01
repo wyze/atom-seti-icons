@@ -21,10 +21,9 @@ Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti U
 
 > [Full Change Log](changelog.md)
 
-### [v1.5.2](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.2) (2017-06-01)
+### [v1.5.3](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.3) (2017-06-01)
 
-* [[`946dd7f8db`](https://github.com/wyze/atom-seti-icons/commit/946dd7f8db)] - Overhaul theme overrides (Neil Kistner)
-* [[`83fb152998`](https://github.com/wyze/atom-seti-icons/commit/83fb152998)] - Restore credits in readme (Neil Kistner)
+* [[`2b7bd6a6b0`](https://github.com/wyze/atom-seti-icons/commit/2b7bd6a6b0)] - Add theme override for Nucleus Dark (Neil Kistner)
 
 ## License
 

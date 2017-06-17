@@ -21,9 +21,9 @@ Thank you to [Jesse Weed](//github.com/jesseweed) for making the original Seti U
 
 > [Full Change Log](changelog.md)
 
-### [v1.5.3](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.3) (2017-06-01)
+### [v1.5.4](https://github.com/wyze/atom-seti-icons/releases/tag/v1.5.4) (2017-06-17)
 
-* [[`2b7bd6a6b0`](https://github.com/wyze/atom-seti-icons/commit/2b7bd6a6b0)] - Add theme override for Nucleus Dark (Neil Kistner)
+* [[`418af126f6`](https://github.com/wyze/atom-seti-icons/commit/418af126f6)] - Fix icons on the preview-pane one-dark theme (#72) (Adam Laycock)
 
 ## License
 
